@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93cf0a30-1c78-45b6-9129-b509c3d21240" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DaoConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/config/DaoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2807#2808#0" expanded="false" />
+                <element signature="e#2866#2867#0" expanded="false" />
+                <element signature="e#3137#3138#0" expanded="false" />
+                <element signature="e#3212#3213#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessScopeDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1235">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageResponse.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageResponse.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#4238#4239#0" expanded="false" />
+                <element signature="e#4271#4272#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusinessScopePo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/BusinessScopePo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/aspect/DaoAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderPo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="116" lean-forward="false" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNotice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoHeadPortraitEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="forwarder-dao" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="forwarder-dao" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="po" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder-dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forwarder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aspect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GeneralDao">
+    <configuration default="false" name="GeneralDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.guguangming.forwarder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.guguangming.forwarder.GeneralDao" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="forwarder-dao" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="forwarder-dao" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.GeneralDao" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.GeneralDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93cf0a30-1c78-45b6-9129-b509c3d21240" name="Default" comment="" />
+      <created>1517886585626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517886585626</updated>
+      <workItem from="1517886587899" duration="27538000" />
+      <workItem from="1518053433645" duration="465000" />
+      <workItem from="1518075315009" duration="3360000" />
+      <workItem from="1518141438509" duration="1793000" />
+      <workItem from="1518157958447" duration="717000" />
+      <workItem from="1518161966708" duration="565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34438000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23319027" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java</url>
+          <line>72</line>
+          <properties class="com.guguangming.forwarder.dao.CertificateDao">
+            <option name="EMULATED" value="true" />
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseJdbcUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="116" lean-forward="false" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/111" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNotice.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBanner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoHeadPortraitEntity.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/Criteria.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1237">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="60" column="39" lean-forward="false" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrderEntity.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseClientGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="89" column="13" lean-forward="false" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/DbInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.guguangming.forwarder:forwarder-dao:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.guguangming.forwarder:forwarder-dao:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="1720.9195738194255">com.guguangming.forwarder:forwarder-dao:1.0-SNAPSHOT</node>
+            <node x="201.0" y="522.0871285685985">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13</node>
+            <node x="418.0" y="655.8541093710212">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-dependencies:pom:1.4.2.RELEASE</node>
+            <node x="425.5" y="202.65172841864023">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE</node>
+            <node x="700.0" y="266.11839508530693">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE</node>
+            <node x="1252.0" y="273.6875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE</node>
+            <node x="1467.0" y="286.1875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE</node>
+            <node x="1851.0" y="261.1875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE/org.springframework:spring-expression:jar:4.2.7.RELEASE</node>
+            <node x="941.0" y="261.1875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.6.RELEASE</node>
+            <node x="938.0" y="409.6041093710212">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE</node>
+            <node x="1250.0" y="411.6875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21</node>
+            <node x="1256.5" y="342.6875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21</node>
+            <node x="1241.5" y="480.6875">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21</node>
+            <node x="992.5" y="188.0">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.yaml:snakeyaml:jar:1.16</node>
+            <node x="1671.0" y="1506.371609371021">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE</node>
+            <node x="1873.0" y="1514.0382760376876">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="717.0" y="138.0">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.aspectj:aspectjweaver:jar:1.8.9</node>
+            <node x="454.5" y="2041.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2</node>
+            <node x="1488.0" y="532.5749999999998">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21</node>
+            <node x="1241.5" y="1020.8496858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7</node>
+            <node x="1472.5" y="1115.4916666666663">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7/ch.qos.logback:logback-core:jar:1.1.7</node>
+            <node x="738.0" y="2490.0546858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/uk.com.robust-it:cloning:jar:1.9.2</node>
+            <node x="995.5" y="2490.0546858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/uk.com.robust-it:cloning:jar:1.9.2/org.objenesis:objenesis:jar:2.1</node>
+            <node x="963.5" y="899.7121285685986">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2</node>
+            <node x="1223.0" y="1089.8496858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="710.5" y="2035.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.commons:commons-lang3:jar:3.4</node>
+            <node x="722.0" y="1225.6166666666663">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-io:commons-io:jar:2.5</node>
+            <node x="729.0" y="1362.9916666666663">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.jodd:jodd-bean:jar:3.6.6</node>
+            <node x="994.5" y="1197.672907152759">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.jodd:jodd-bean:jar:3.6.6/org.jodd:jodd-core:jar:3.6.6</node>
+            <node x="709.0" y="2689.8046858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-codec:commons-codec:jar:1.10</node>
+            <node x="1225.5" y="2067.9713525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7</node>
+            <node x="971.0" y="2129.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7</node>
+            <node x="1249.0" y="2136.9713525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7/com.fasterxml.jackson.core:jackson-core:jar:2.6.7</node>
+            <node x="738.0" y="1897.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.projectlombok:lombok:jar:1.16.4</node>
+            <node x="1006.0" y="2559.0546858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.google.guava:guava:jar:20.0</node>
+            <node x="736.5" y="1966.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.auth0:java-jwt:jar:2.2.0</node>
+            <node x="986.0" y="1966.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.auth0:java-jwt:jar:2.2.0/commons-io:commons-io:jar:1.3.2</node>
+            <node x="716.5" y="1606.8046858642435">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0</node>
+            <node x="982.5" y="1671.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/com.github.stephenc.high-scale-lib:high-scale-lib:jar:1.1.2</node>
+            <node x="1006.0" y="1552.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/com.google.guava:guava:jar:15.0</node>
+            <node x="1011.0" y="1483.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/com.eaio.uuid:uuid:jar:3.2</node>
+            <node x="978.5" y="1602.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/commons-lang:commons-lang:jar:2.4</node>
+            <node x="702.0" y="1828.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
+            <node x="983.0" y="1809.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="982.0" y="1878.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="994.0" y="1740.2504619019319">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.1.0</node>
+            <node x="740.0" y="2758.8046858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.glassfish.web:el-impl:jar:2.2</node>
+            <node x="1007.5" y="2758.8046858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.glassfish.web:el-impl:jar:2.2/javax.el:el-api:jar:2.2</node>
+            <node x="734.5" y="1175.6166666666663">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup:javapoet:jar:1.9.0</node>
+            <node x="728.0" y="2620.8046858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.reflections:reflections:jar:0.9.11</node>
+            <node x="998.0" y="2628.0546858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="1268.5" y="2275.388019197577">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0</node>
+            <node x="1500.0" y="2275.388019197577">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0/com.squareup.okio:okio:jar:1.8.0</node>
+            <node x="964.5" y="2267.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:logging-interceptor:jar:3.3.0</node>
+            <node x="1003.0" y="2198.7213525309103">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:retrofit:jar:2.1.0</node>
+            <node x="704.5" y="2150.541240486092">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-jackson:jar:2.1.0</node>
+            <node x="698.0" y="2413.8046858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0</node>
+            <node x="991.5" y="2421.0546858642438">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1</node>
+            <node x="1488.0" y="2505.613333333333">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/stax:stax-api:jar:1.0.1</node>
+            <node x="1276.0" y="2413.388019197577">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/stax:stax:jar:1.2.0</node>
+            <node x="1273.5" y="2344.388019197577">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/xpp3:xpp3:jar:1.1.3.3</node>
+            <node x="995.0" y="1039.922907152759">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2</node>
+            <node x="1262.5" y="1179.920461901932">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.5</node>
+            <node x="1237.5" y="1248.920461901932">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-codec:commons-codec:jar:1.9</node>
+            <node x="454.5" y="757.5624427043545">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1</node>
+            <node x="745.5" y="703.8957760376879">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/org.jdom:jdom:jar:1.1</node>
+            <node x="717.5" y="787.2291093710212">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4</node>
+            <node x="978.5" y="830.7121285685986">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="968.5" y="754.4645738194257">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="997.5" y="685.4645738194257">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="1243.0" y="685.4645738194257">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="486.5" y="69.0">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/redis.clients:jedis:jar:2.7.3</node>
+            <node x="710.0" y="69.0">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/redis.clients:jedis:jar:2.7.3/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="461.0" y="447.0871285685985">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0</node>
+            <node x="751.5" y="555.8541093710212">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0/net.jpountz.lz4:lz4:jar:1.3.0</node>
+            <node x="723.0" y="343.17641428288425">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0/org.xerial.snappy:snappy-java:jar:1.1.2.6</node>
+            <node x="988.5" y="594.5624427043545">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient:jar:0.0.23</node>
+            <node x="695.0" y="623.6041093710212">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_common:jar:0.0.23</node>
+            <node x="420.5" y="605.8541093710212">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_pushgateway:jar:0.0.23</node>
+            <node x="469.5" y="980.0624427043545">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1</node>
+            <node x="718.0" y="1125.6166666666663">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/com.google.protobuf:protobuf-java:jar:2.4.1</node>
+            <node x="713.0" y="919.6583333333332">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2</node>
+            <node x="985.5" y="968.7121285685986">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2/org.apache.httpcomponents:httpcore-nio:jar:4.4.5</node>
+            <node x="995.5" y="1291.672907152759">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/joda-time:joda-time:jar:2.8.2</node>
+            <node x="997.5" y="1108.922907152759">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.logging.log4j:log4j-api:jar:2.4.1</node>
+            <node x="729.0" y="987.6166666666664">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.logging.log4j:log4j-core:jar:2.4.1</node>
+            <node x="732.0" y="1056.6166666666663">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/com.lmax:disruptor:jar:3.0.1</node>
+            <node x="463.0" y="0.0">com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/net.jodah:expiringmap:jar:0.5.8</node>
+            <node x="1477.5" y="2840.2838525309103">org.springframework:spring-jdbc:jar:4.2.7.RELEASE</node>
+            <node x="1866.0" y="2754.187073819425">org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-beans:jar:4.2.7.RELEASE</node>
+            <node x="2075.0" y="299.63089508530675">org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE</node>
+            <node x="1676.5" y="2832.6171858642438">org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-tx:jar:4.2.7.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:logging-interceptor:jar:3.3.0">
+              <point x="62.0" y="4.639999999999873" />
+              <point x="615.0" y="2060.3904619019318" />
+              <point x="695.0" y="2282.2213525309103" />
+              <point x="-76.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.1.0">
+              <point x="74.5" y="-9.666666666666742" />
+              <point x="938.0" y="1754.7504619019319" />
+              <point x="-46.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7">
+              <point x="62.0" y="-8.11999999999989" />
+              <point x="615.0" y="2047.630461901932" />
+              <point x="695.0" y="1436.9916666666663" />
+              <point x="1143.0" y="1436.9916666666663" />
+              <point x="1223.0" y="1042.5996858642438" />
+              <point x="-63.5" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0">
+              <point x="62.0" y="-5.800000000000182" />
+              <point x="615.0" y="2049.9504619019317" />
+              <point x="695.0" y="1621.3046858642435" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_common:jar:0.0.23">
+              <point x="68.5" y="2.636363636363626" />
+              <point x="418.0" y="645.3541093710212" />
+              <point x="-81.5" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.logging.log4j:log4j-api:jar:2.4.1">
+              <point x="47.0" y="-7.25" />
+              <point x="615.0" y="987.3124427043545" />
+              <point x="695.0" y="977.1166666666664" />
+              <point x="858.0" y="977.1166666666664" />
+              <point x="938.0" y="1116.172907152759" />
+              <point x="-43.0" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.reflections:reflections:jar:0.9.11" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.18.1-GA">
+              <point x="48.5" y="7.25" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:retrofit:jar:2.1.0">
+              <point x="62.0" y="3.480000000000018" />
+              <point x="615.0" y="2059.230461901932" />
+              <point x="695.0" y="2213.2213525309103" />
+              <point x="-37.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-tx:jar:4.2.7.RELEASE">
+              <point x="51.5" y="-0.0" />
+              <point x="-44.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="55.5" y="-0.0" />
+              <point x="615.0" y="461.5871285685985" />
+              <point x="695.0" y="545.3541093710212" />
+              <point x="1387.0" y="545.3541093710212" />
+              <point x="-41.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.5">
+              <point x="45.5" y="-7.25" />
+              <point x="1143.0" y="1047.172907152759" />
+              <point x="1223.0" y="1204.0871285685987" />
+              <point x="-42.5" y="9.666666666666742" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2">
+              <point x="62.0" y="-12.759999999999991" />
+              <point x="615.0" y="2042.9904619019317" />
+              <point x="695.0" y="1215.1166666666663" />
+              <point x="858.0" y="1215.1166666666663" />
+              <point x="938.0" y="921.4621285685986" />
+              <point x="-77.0" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="50.0" y="-0.0" />
+              <point x="1851.0" y="1528.5382760376876" />
+              <point x="-50.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_common:jar:0.0.23" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient:jar:0.0.23">
+              <point x="81.5" y="-0.0" />
+              <point x="938.0" y="618.7291093710211" />
+              <point x="-52.0" y="9.666666666666629" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/redis.clients:jedis:jar:2.7.3">
+              <point x="68.5" y="-10.545454545454504" />
+              <point x="418.0" y="83.5" />
+              <point x="-30.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.jodd:jodd-bean:jar:3.6.6" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.jodd:jodd-bean:jar:3.6.6/org.jodd:jodd-core:jar:3.6.6">
+              <point x="47.5" y="-0.0" />
+              <point x="858.0" y="1377.4916666666663" />
+              <point x="938.0" y="1212.172907152759" />
+              <point x="-46.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE">
+              <point x="91.0" y="9.666666666666657" />
+              <point x="-76.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.6.RELEASE">
+              <point x="76.5" y="-0.0" />
+              <point x="-99.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0/net.jpountz.lz4:lz4:jar:1.3.0">
+              <point x="55.5" y="9.666666666666686" />
+              <point x="615.0" y="471.2537952352652" />
+              <point x="695.0" y="570.3541093710212" />
+              <point x="-25.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-codec:commons-codec:jar:1.9">
+              <point x="45.5" y="7.25" />
+              <point x="1143.0" y="1061.672907152759" />
+              <point x="1223.0" y="1263.420461901932" />
+              <point x="-67.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-jackson:jar:2.1.0">
+              <point x="62.0" y="2.3200000000001637" />
+              <point x="615.0" y="2058.070461901932" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7">
+              <point x="102.5" y="10.875" />
+              <point x="1223.0" y="1028.0996858642438" />
+              <point x="-63.5" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="63.5" y="-7.25" />
+              <point x="1387.0" y="1028.0996858642438" />
+              <point x="1467.0" y="551.2178571428569" />
+              <point x="-41.0" y="4.14285714285711" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-jackson:jar:2.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7">
+              <point x="72.0" y="-7.25" />
+              <point x="938.0" y="2151.4713525309103" />
+              <point x="-69.5" y="7.25" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-beans:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="57.0" y="-0.0" />
+              <point x="1995.0" y="2768.687073819425" />
+              <point x="-52.0" y="5.4375" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/joda-time:joda-time:jar:2.8.2">
+              <point x="60.0" y="-12.083333333333258" />
+              <point x="858.0" y="1609.2213525309103" />
+              <point x="938.0" y="1313.422907152759" />
+              <point x="-45.0" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE">
+              <point x="99.5" y="-0.0" />
+              <point x="1223.0" y="280.9375" />
+              <point x="-53.0" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:retrofit:jar:2.1.0">
+              <point x="78.5" y="-7.25" />
+              <point x="938.0" y="2222.888019197577" />
+              <point x="-37.5" y="9.666666666666515" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1">
+              <point x="68.5" y="10.545454545454504" />
+              <point x="418.0" y="994.5624427043545" />
+              <point x="-47.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final">
+              <point x="74.5" y="-0.0" />
+              <point x="938.0" y="1823.7504619019319" />
+              <point x="-57.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.jodd:jodd-bean:jar:3.6.6">
+              <point x="62.0" y="-9.279999999999973" />
+              <point x="615.0" y="2046.4704619019317" />
+              <point x="695.0" y="1377.4916666666663" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="53.0" y="-7.25" />
+              <point x="1387.0" y="280.9375" />
+              <point x="1467.0" y="241.8125" />
+              <point x="1995.0" y="241.8125" />
+              <point x="-52.0" y="-9.0625" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7">
+              <point x="62.0" y="-0.0" />
+              <point x="615.0" y="2055.750461901932" />
+              <point x="695.0" y="2075.2213525309103" />
+              <point x="-79.5" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/com.google.guava:guava:jar:15.0">
+              <point x="60.0" y="-2.4166666666667425" />
+              <point x="858.0" y="1618.8880191975768" />
+              <point x="938.0" y="1566.7504619019319" />
+              <point x="-34.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21">
+              <point x="102.5" y="3.625" />
+              <point x="1223.0" y="495.1875" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:retrofit:jar:2.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0">
+              <point x="37.5" y="-0.0" />
+              <point x="1143.0" y="2213.2213525309103" />
+              <point x="1223.0" y="2280.2213525309103" />
+              <point x="-36.5" y="-9.666666666666515" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE/org.springframework:spring-expression:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="72.0" y="-0.0" />
+              <point x="-52.0" y="-1.8125" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_pushgateway:jar:0.0.23" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient:jar:0.0.23">
+              <point x="96.0" y="-7.25" />
+              <point x="858.0" y="613.1041093710212" />
+              <point x="938.0" y="609.0624427043545" />
+              <point x="-52.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0/com.squareup.okio:okio:jar:1.8.0">
+              <point x="36.5" y="-0.0" />
+              <point x="-29.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.21" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="63.5" y="-0.0" />
+              <point x="1387.0" y="495.1875" />
+              <point x="1467.0" y="542.9321428571427" />
+              <point x="-41.0" y="-4.14285714285711" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="48.5" y="-0.0" />
+              <point x="1387.0" y="357.1875" />
+              <point x="1467.0" y="534.6464285714284" />
+              <point x="-41.0" y="-12.428571428571445" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2/org.apache.httpcomponents:httpcore-nio:jar:4.4.5" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.5">
+              <point x="55.0" y="-0.0" />
+              <point x="1143.0" y="983.2121285685986" />
+              <point x="1223.0" y="1184.7537952352652" />
+              <point x="-42.5" y="-9.666666666666742" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6">
+              <point x="59.0" y="-11.600000000000023" />
+              <point x="858.0" y="790.1291093710212" />
+              <point x="938.0" y="699.9645738194257" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_pushgateway:jar:0.0.23" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_common:jar:0.0.23">
+              <point x="96.0" y="7.25" />
+              <point x="-81.5" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1">
+              <point x="68.5" y="7.909090909090878" />
+              <point x="418.0" y="772.0624427043545" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup:javapoet:jar:1.9.0">
+              <point x="62.0" y="-13.920000000000073" />
+              <point x="615.0" y="2041.8304619019318" />
+              <point x="695.0" y="1190.1166666666663" />
+              <point x="-42.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient:jar:0.0.23">
+              <point x="68.5" y="-2.636363636363626" />
+              <point x="418.0" y="595.3541093710212" />
+              <point x="858.0" y="595.3541093710212" />
+              <point x="938.0" y="599.3957760376878" />
+              <point x="-52.0" y="-9.666666666666629" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE">
+              <point x="91.0" y="-0.0" />
+              <point x="695.0" y="177.5" />
+              <point x="1591.0" y="177.5" />
+              <point x="-50.0" y="-9.666666666666742" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-beans:jar:4.2.7.RELEASE">
+              <point x="50.0" y="9.666666666666742" />
+              <point x="1851.0" y="2757.812073819425" />
+              <point x="-57.0" y="-10.875" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0">
+              <point x="62.0" y="5.800000000000182" />
+              <point x="615.0" y="2061.550461901932" />
+              <point x="695.0" y="2355.263019197577" />
+              <point x="1143.0" y="2355.263019197577" />
+              <point x="1223.0" y="2299.5546858642433" />
+              <point x="-36.5" y="9.666666666666515" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE">
+              <point x="62.0" y="3.625" />
+              <point x="-50.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2">
+              <point x="62.0" y="9.666666666666629" />
+              <point x="615.0" y="781.7291093710211" />
+              <point x="695.0" y="909.1583333333332" />
+              <point x="858.0" y="909.1583333333332" />
+              <point x="938.0" y="1044.7562404860923" />
+              <point x="-45.5" y="-9.666666666666742" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE">
+              <point x="76.5" y="5.7999999999999545" />
+              <point x="938.0" y="300.6875" />
+              <point x="1143.0" y="300.6875" />
+              <point x="1223.0" y="295.4375" />
+              <point x="-53.0" y="7.25" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-tx:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-beans:jar:4.2.7.RELEASE">
+              <point x="44.5" y="-7.25" />
+              <point x="1851.0" y="2779.562073819425" />
+              <point x="-57.0" y="10.875" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="55.0" y="-0.0" />
+              <point x="1387.0" y="426.1875" />
+              <point x="1467.0" y="538.7892857142855" />
+              <point x="-41.0" y="-8.285714285714334" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="62.0" y="-10.875" />
+              <point x="1671.0" y="250.6875" />
+              <point x="1995.0" y="250.6875" />
+              <point x="-52.0" y="-5.4375" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="60.0" y="2.4166666666667425" />
+              <point x="858.0" y="1623.7213525309103" />
+              <point x="938.0" y="1591.7504619019319" />
+              <point x="1387.0" y="1591.7504619019319" />
+              <point x="1467.0" y="559.5035714285713" />
+              <point x="-41.0" y="12.428571428571445" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.1.1">
+              <point x="59.0" y="-5.7999999999999545" />
+              <point x="858.0" y="795.9291093710212" />
+              <point x="938.0" y="768.9645738194257" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.auth0:java-jwt:jar:2.2.0">
+              <point x="62.0" y="-2.3200000000001637" />
+              <point x="615.0" y="2053.4304619019317" />
+              <point x="695.0" y="1981.2213525309103" />
+              <point x="-40.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="51.5" y="9.666666666666515" />
+              <point x="1671.0" y="2872.1171858642438" />
+              <point x="1995.0" y="2872.1171858642438" />
+              <point x="-52.0" y="12.6875" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.auth0:java-jwt:jar:2.2.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.auth0:java-jwt:jar:2.2.0/commons-io:commons-io:jar:1.3.2">
+              <point x="40.0" y="-0.0" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/io.prometheus:simpleclient_pushgateway:jar:0.0.23">
+              <point x="68.5" y="-0.0" />
+              <point x="-96.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/org.jdom:jdom:jar:1.1">
+              <point x="62.0" y="-9.666666666666629" />
+              <point x="615.0" y="762.3957760376878" />
+              <point x="695.0" y="718.3957760376879" />
+              <point x="-31.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/com.google.protobuf:protobuf-java:jar:2.4.1">
+              <point x="47.0" y="7.25" />
+              <point x="615.0" y="1001.8124427043545" />
+              <point x="695.0" y="1140.1166666666663" />
+              <point x="-58.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/stax:stax:jar:1.2.0">
+              <point x="49.0" y="-0.0" />
+              <point x="1143.0" y="2435.5546858642438" />
+              <point x="1223.0" y="2427.888019197577" />
+              <point x="-29.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/xpp3:xpp3:jar:1.1.3.3">
+              <point x="49.0" y="-9.666666666666515" />
+              <point x="1143.0" y="2425.8880191975773" />
+              <point x="1223.0" y="2358.888019197577" />
+              <point x="-31.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/stax:stax-api:jar:1.0.1">
+              <point x="49.0" y="9.666666666666515" />
+              <point x="1143.0" y="2445.2213525309103" />
+              <point x="1223.0" y="2532.613333333333" />
+              <point x="1387.0" y="2532.613333333333" />
+              <point x="1467.0" y="2527.363333333333" />
+              <point x="-41.0" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final">
+              <point x="62.0" y="-4.639999999999873" />
+              <point x="615.0" y="2051.110461901932" />
+              <point x="-74.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.21">
+              <point x="102.5" y="-10.875" />
+              <point x="1223.0" y="357.1875" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0">
+              <point x="68.5" y="-5.272727272727252" />
+              <point x="418.0" y="461.5871285685985" />
+              <point x="-55.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.glassfish.web:el-impl:jar:2.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.glassfish.web:el-impl:jar:2.2/javax.el:el-api:jar:2.2">
+              <point x="36.5" y="-0.0" />
+              <point x="-33.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3">
+              <point x="43.0" y="-0.0" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.apache.kafka:kafka-clients:jar:0.10.1.0/org.xerial.snappy:snappy-java:jar:1.1.2.6">
+              <point x="55.5" y="-9.666666666666686" />
+              <point x="615.0" y="451.92046190193173" />
+              <point x="695.0" y="357.67641428288425" />
+              <point x="-53.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/ch.qos.logback:logback-classic:jar:1.1.7/ch.qos.logback:logback-core:jar:1.1.7">
+              <point x="63.5" y="7.25" />
+              <point x="1387.0" y="1042.5996858642438" />
+              <point x="-56.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE">
+              <point x="62.0" y="13.920000000000073" />
+              <point x="615.0" y="2069.670461901932" />
+              <point x="695.0" y="2798.3046858642438" />
+              <point x="1591.0" y="2798.3046858642438" />
+              <point x="-50.0" y="9.666666666666742" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/redis.clients:jedis:jar:2.7.3" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/redis.clients:jedis:jar:2.7.3/org.apache.commons:commons-pool2:jar:2.4.2">
+              <point x="30.0" y="-0.0" />
+              <point x="-66.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2">
+              <point x="47.0" y="-12.083333333333371" />
+              <point x="615.0" y="982.4791093710212" />
+              <point x="695.0" y="934.1583333333332" />
+              <point x="-63.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework:spring-aop:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="50.0" y="-9.666666666666742" />
+              <point x="1851.0" y="358.69339508530686" />
+              <point x="1995.0" y="358.69339508530686" />
+              <point x="-52.0" y="1.8125" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/com.lmax:disruptor:jar:3.0.1">
+              <point x="47.0" y="2.4166666666666288" />
+              <point x="615.0" y="996.9791093710212" />
+              <point x="695.0" y="1071.1166666666663" />
+              <point x="-44.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.aspectj:aspectjweaver:jar:1.8.9">
+              <point x="91.0" y="-9.666666666666657" />
+              <point x="695.0" y="152.5" />
+              <point x="-59.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/joda-time:joda-time:jar:2.8.2">
+              <point x="47.0" y="12.083333333333371" />
+              <point x="615.0" y="1006.6457760376879" />
+              <point x="695.0" y="1165.1166666666663" />
+              <point x="858.0" y="1165.1166666666663" />
+              <point x="938.0" y="1298.922907152759" />
+              <point x="-45.0" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/uk.com.robust-it:cloning:jar:1.9.2">
+              <point x="62.0" y="8.11999999999989" />
+              <point x="615.0" y="2063.870461901932" />
+              <point x="695.0" y="2504.5546858642438" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-jackson:jar:2.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:retrofit:jar:2.1.0">
+              <point x="72.0" y="7.25" />
+              <point x="938.0" y="2203.5546858642438" />
+              <point x="-37.5" y="-9.666666666666515" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE">
+              <point x="68.5" y="-7.909090909090878" />
+              <point x="-91.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.reflections:reflections:jar:0.9.11" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.google.guava:guava:jar:20.0">
+              <point x="48.5" y="-7.25" />
+              <point x="858.0" y="2628.0546858642438" />
+              <point x="938.0" y="2580.8046858642438" />
+              <point x="-34.5" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/commons-lang:commons-lang:jar:2.4">
+              <point x="60.0" y="7.25" />
+              <point x="858.0" y="1628.5546858642435" />
+              <point x="938.0" y="1616.7504619019319" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-codec:commons-codec:jar:1.10">
+              <point x="62.0" y="11.599999999999909" />
+              <point x="615.0" y="2067.350461901932" />
+              <point x="695.0" y="2704.3046858642438" />
+              <point x="-67.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2">
+              <point x="59.0" y="11.600000000000023" />
+              <point x="858.0" y="813.3291093710212" />
+              <point x="938.0" y="906.9621285685986" />
+              <point x="-77.0" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="74.5" y="9.666666666666742" />
+              <point x="938.0" y="1892.7504619019319" />
+              <point x="-58.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2">
+              <point x="62.0" y="-10.440000000000055" />
+              <point x="615.0" y="2045.3104619019318" />
+              <point x="695.0" y="1265.1166666666663" />
+              <point x="858.0" y="1265.1166666666663" />
+              <point x="938.0" y="1064.0895738194258" />
+              <point x="-45.5" y="9.666666666666742" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.yaml:snakeyaml:jar:1.16">
+              <point x="76.5" y="-11.600000000000023" />
+              <point x="938.0" y="202.5" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.guguangming.forwarder:forwarder-dao:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE">
+              <point x="60.5" y="7.25" />
+              <point x="201.0" y="2854.7838525309103" />
+              <point x="-51.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2/org.apache.httpcomponents:httpcore-nio:jar:4.4.5">
+              <point x="63.5" y="-9.666666666666629" />
+              <point x="858.0" y="924.4916666666666" />
+              <point x="938.0" y="983.2121285685986" />
+              <point x="-55.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.logging.log4j:log4j-core:jar:2.4.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.logging.log4j:log4j-api:jar:2.4.1">
+              <point x="47.5" y="-0.0" />
+              <point x="858.0" y="1002.1166666666664" />
+              <point x="938.0" y="1130.672907152759" />
+              <point x="-43.0" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-dependencies:pom:1.4.2.RELEASE">
+              <point x="68.5" y="5.272727272727252" />
+              <point x="-98.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.glassfish.web:el-impl:jar:2.2">
+              <point x="62.0" y="12.760000000000218" />
+              <point x="615.0" y="2068.510461901932" />
+              <point x="695.0" y="2773.3046858642438" />
+              <point x="-36.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.reflections:reflections:jar:0.9.11">
+              <point x="62.0" y="10.440000000000055" />
+              <point x="615.0" y="2066.190461901932" />
+              <point x="695.0" y="2635.3046858642438" />
+              <point x="-48.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2/commons-collections:commons-collections:jar:3.2.2">
+              <point x="59.0" y="-0.0" />
+              <point x="858.0" y="801.7291093710212" />
+              <point x="938.0" y="812.3395738194257" />
+              <point x="1143.0" y="812.3395738194257" />
+              <point x="-82.0" y="-7.25" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-beans:jar:4.2.7.RELEASE">
+              <point x="51.5" y="-9.666666666666515" />
+              <point x="1671.0" y="2822.1171858642438" />
+              <point x="1771.0" y="2822.1171858642438" />
+              <point x="1851.0" y="2772.312073819425" />
+              <point x="-57.0" y="3.625" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7">
+              <point x="69.5" y="-7.25" />
+              <point x="1143.0" y="2136.9713525309103" />
+              <point x="-79.5" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-beanutils:commons-beanutils:jar:1.9.2/commons-collections:commons-collections:jar:3.2.2">
+              <point x="77.0" y="-0.0" />
+              <point x="1143.0" y="914.2121285685986" />
+              <point x="-82.0" y="7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4">
+              <point x="62.0" y="-0.0" />
+              <point x="615.0" y="772.0624427043545" />
+              <point x="695.0" y="801.7291093710212" />
+              <point x="-59.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/stax:stax:jar:1.2.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1/stax:stax-api:jar:1.0.1">
+              <point x="29.0" y="-0.0" />
+              <point x="1387.0" y="2427.888019197577" />
+              <point x="1467.0" y="2512.863333333333" />
+              <point x="-41.0" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.oss:aliyun-sdk-oss:jar:2.2.1/net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5">
+              <point x="59.0" y="5.7999999999999545" />
+              <point x="858.0" y="807.5291093710211" />
+              <point x="938.0" y="845.2121285685986" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/commons-io:commons-io:jar:2.5">
+              <point x="62.0" y="-11.599999999999909" />
+              <point x="615.0" y="2044.150461901932" />
+              <point x="695.0" y="1240.1166666666663" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:logging-interceptor:jar:3.3.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.okhttp3:okhttp:jar:3.3.0">
+              <point x="76.0" y="-0.0" />
+              <point x="1143.0" y="2282.2213525309103" />
+              <point x="1223.0" y="2289.888019197577" />
+              <point x="-36.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.projectlombok:lombok:jar:1.16.4">
+              <point x="62.0" y="-3.480000000000018" />
+              <point x="615.0" y="2052.270461901932" />
+              <point x="695.0" y="1912.2213525309103" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7/com.fasterxml.jackson.core:jackson-core:jar:2.6.7">
+              <point x="69.5" y="7.25" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="76.5" y="-5.7999999999999545" />
+              <point x="938.0" y="227.5" />
+              <point x="1995.0" y="227.5" />
+              <point x="-52.0" y="-12.6875" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/com.github.stephenc.high-scale-lib:high-scale-lib:jar:1.1.2">
+              <point x="60.0" y="12.083333333333258" />
+              <point x="858.0" y="1633.3880191975768" />
+              <point x="938.0" y="1685.7504619019319" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.netflix.astyanax:astyanax-core:jar:3.8.0/com.eaio.uuid:uuid:jar:3.2">
+              <point x="60.0" y="-7.25" />
+              <point x="858.0" y="1614.0546858642435" />
+              <point x="938.0" y="1497.7504619019319" />
+              <point x="-29.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.commons:commons-lang3:jar:3.4">
+              <point x="62.0" y="-1.1599999999998545" />
+              <point x="615.0" y="2054.590461901932" />
+              <point x="-66.0" y="-0.0" />
+            </edge>
+            <edge source="com.guguangming.forwarder:forwarder-dao:1.0-SNAPSHOT" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13">
+              <point x="60.5" y="-7.25" />
+              <point x="-68.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.logging.log4j:log4j-core:jar:2.4.1">
+              <point x="47.0" y="-2.4166666666666288" />
+              <point x="615.0" y="992.1457760376879" />
+              <point x="695.0" y="1002.1166666666664" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.5">
+              <point x="63.5" y="-0.0" />
+              <point x="858.0" y="934.1583333333332" />
+              <point x="938.0" y="1008.2121285685986" />
+              <point x="1143.0" y="1008.2121285685986" />
+              <point x="1223.0" y="1194.420461901932" />
+              <point x="-42.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-beans:jar:4.2.7.RELEASE">
+              <point x="62.0" y="10.875" />
+              <point x="1671.0" y="1593.9132760376876" />
+              <point x="1771.0" y="1593.9132760376876" />
+              <point x="1851.0" y="2765.062073819425" />
+              <point x="-57.0" y="-3.625" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.aliyun.openservices:tablestore:jar:4.3.1/org.apache.httpcomponents:httpasyncclient:jar:4.1.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.apache.httpcomponents:httpclient:jar:4.5.2">
+              <point x="63.5" y="9.666666666666629" />
+              <point x="858.0" y="943.8249999999998" />
+              <point x="938.0" y="1054.422907152759" />
+              <point x="-45.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/org.slf4j:slf4j-api:jar:1.7.21">
+              <point x="62.0" y="-6.960000000000036" />
+              <point x="615.0" y="2048.790461901932" />
+              <point x="695.0" y="1472.7504619019319" />
+              <point x="1387.0" y="1472.7504619019319" />
+              <point x="1467.0" y="555.3607142857142" />
+              <point x="-41.0" y="8.285714285714334" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-tx:jar:4.2.7.RELEASE" target="org.springframework:spring-jdbc:jar:4.2.7.RELEASE/org.springframework:spring-core:jar:4.2.7.RELEASE">
+              <point x="44.5" y="7.25" />
+              <point x="1995.0" y="2854.3671858642438" />
+              <point x="-52.0" y="9.0625" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2">
+              <point x="68.5" y="13.18181818181813" />
+              <point x="418.0" y="2055.750461901932" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE">
+              <point x="76.5" y="11.600000000000023" />
+              <point x="-102.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.6.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.21">
+              <point x="102.5" y="-3.625" />
+              <point x="1223.0" y="426.1875" />
+              <point x="-55.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0/org.simpleframework:simple-xml:jar:2.7.1">
+              <point x="78.5" y="7.25" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.google.guava:guava:jar:20.0">
+              <point x="62.0" y="9.2800000000002" />
+              <point x="615.0" y="2065.030461901932" />
+              <point x="695.0" y="2566.3046858642438" />
+              <point x="-34.5" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE/org.springframework:spring-expression:jar:4.2.7.RELEASE">
+              <point x="62.0" y="-3.625" />
+              <point x="1671.0" y="275.6875" />
+              <point x="-72.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/net.jodah:expiringmap:jar:0.5.8">
+              <point x="68.5" y="-13.18181818181813" />
+              <point x="418.0" y="14.5" />
+              <point x="-53.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7">
+              <point x="62.0" y="1.1599999999998545" />
+              <point x="615.0" y="2056.9104619019317" />
+              <point x="695.0" y="2133.7213525309103" />
+              <point x="858.0" y="2133.7213525309103" />
+              <point x="-69.5" y="-7.25" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/org.springframework.boot:spring-boot-starter-aop:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.6.RELEASE/org.springframework.boot:spring-boot:jar:1.3.6.RELEASE/org.springframework:spring-context:jar:4.2.7.RELEASE">
+              <point x="53.0" y="7.25" />
+              <point x="1387.0" y="295.4375" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/com.squareup.retrofit2:converter-simplexml:jar:2.1.0">
+              <point x="62.0" y="6.960000000000036" />
+              <point x="615.0" y="2062.710461901932" />
+              <point x="-78.5" y="-0.0" />
+            </edge>
+            <edge source="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/uk.com.robust-it:cloning:jar:1.9.2" target="com.moxie.cloud.common:commons-config:jar:1.3-20180109.060602-13/com.moxie.commons:commons-utils:jar:1.2-20180109.055302-2/uk.com.robust-it:cloning:jar:1.9.2/org.objenesis:objenesis:jar:2.1">
+              <point x="38.5" y="-0.0" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.683086480232643" x="-257.0" y="774.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseDaoUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="680" column="29" lean-forward="false" selection-start-line="680" selection-start-column="29" selection-end-line="680" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.14/druid-1.0.14.jar!/com/alibaba/druid/util/JdbcUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="366" column="70" lean-forward="false" selection-start-line="366" selection-start-column="70" selection-end-line="366" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.14/druid-1.0.14.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="854" column="0" lean-forward="false" selection-start-line="854" selection-start-column="0" selection-end-line="854" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.14/druid-1.0.14.jar!/com/alibaba/druid/pool/DruidDataSourceStatValue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseJdbcUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="181" column="29" lean-forward="false" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/config/DaoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2807#2808#0" expanded="false" />
+            <element signature="e#2866#2867#0" expanded="false" />
+            <element signature="e#3137#3138#0" expanded="false" />
+            <element signature="e#3212#3213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4238#4239#0" expanded="false" />
+            <element signature="e#4271#4272#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/BusinessScopePo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/aspect/DaoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="116" lean-forward="false" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>forwarder-dao</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
