@@ -26,7 +26,8 @@ public class GeneralDao {
                 "home_banner",
                 "news",
                 "sailing_schedule",
-                "user_info_head_portrait"
+                "user_info_head_portrait",
+                "administrator_info"
         );
         BaseDaoUtils.generateCode(dbInfo,list,"com.guguangming.forwarder");
     }

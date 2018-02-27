@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93cf0a30-1c78-45b6-9129-b509c3d21240" name="Default" comment="" />
+    <list default="true" id="93cf0a30-1c78-45b6-9129-b509c3d21240" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/AdministratorInfoDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrdersDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/AdministratorInfoEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNoticeEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBannerEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrdersEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrderDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoHeadPortraitDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/BusinessScopePo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/CertificatePo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/CheckNoticePo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/CompanySynopsisBannerPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/CompanySynopsisPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/EmployeesPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/HomeBannerPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/ImportantAnnouncementPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/NewsPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/ProjectSuccessPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/SailingSchedulePo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/UserInfoHeadPortraitPo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/UserInfoPo.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forwarder-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/forwarder-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_moxie_commons_commons_utils_1_2_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_moxie_commons_commons_utils_1_2_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forwarder-dao.iml" afterPath="$PROJECT_DIR$/forwarder-dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CheckNoticeDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CheckNoticeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisBannerDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisBannerDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/HomeBannerDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/HomeBannerDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ImportantAnnouncementDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ImportantAnnouncementDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/SailingScheduleDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/SailingScheduleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,115 +68,69 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DaoConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/config/DaoConfig.java">
+      <file leaf-file-name="UserInfoDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2807#2808#0" expanded="false" />
-                <element signature="e#2866#2867#0" expanded="false" />
-                <element signature="e#3137#3138#0" expanded="false" />
-                <element signature="e#3212#3213#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessScopeDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="2774">
+              <caret line="146" column="36" lean-forward="false" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1519724791894" expanded="true" signature="526:696" ph="INSERT INTO user_info... " />
+                <marker date="1519724791894" expanded="true" signature="526:715" ph="INSERT INTO user_info... " />
+                <marker date="1519724791894" expanded="true" signature="904:927" ph="SELECT * FRO... user_info" />
+                <marker date="1519724791894" expanded="true" signature="1172:1211" ph="SELECT * FRO... user_info" />
+                <marker date="1519724791894" expanded="true" signature="1460:1497" ph="SELECT * FRO... user_info" />
+                <marker date="1519724791894" expanded="true" signature="1761:1823" ph="SELECT user_... user_info" />
+                <marker date="1519724791894" expanded="true" signature="2070:2114" ph="SELECT FROM user_info" />
+                <marker date="1519724791894" expanded="true" signature="2349:2393" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="2349:2422" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="2349:2456" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="2785:2846" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="2785:2911" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="3185:3229" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="3185:3256" ph="SELECT COUNT... user_info" />
+                <marker date="1519724791894" expanded="true" signature="3501:3532" ph="UPDATE user_... " />
+                <marker date="1519724791894" expanded="true" signature="3501:3562" ph="UPDATE user_... " />
+                <marker date="1519724791894" expanded="true" signature="3825:3857" ph="UPDATE user_... " />
+                <marker date="1519724791894" expanded="true" signature="3825:3887" ph="UPDATE user_... " />
+                <marker date="1519724791894" expanded="true" signature="4194:4287" ph="UPDATE user_... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageResponse.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#4238#4239#0" expanded="false" />
-                <element signature="e#4271#4272#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneralDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GeneralDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessScopePo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/BusinessScopePo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/aspect/DaoAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderPo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="116" lean-forward="false" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+            <state relative-caret-position="342">
+              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfoEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="method#setSecurityQuestionType#0;class#UserInfoEntity#0" expanded="false" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +144,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -141,29 +155,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrderEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNotice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoHeadPortraitEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/AdministratorInfoPo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/ImportantAnnouncementPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/NewsPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/AdministratorInfoPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/AdministratorInfoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/service/AdministratorInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificatePo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNoticePo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNoticeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBannerPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessPo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingSchedulePo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoHeadPortraitEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBannerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CheckNoticeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisBannerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/HomeBannerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrdersEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ImportantAnnouncementDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrdersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/SailingScheduleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/AdministratorInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoHeadPortraitDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java" />
       </list>
     </option>
   </component>
@@ -172,6 +214,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -202,10 +251,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -221,6 +270,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -235,197 +285,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="po" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder-dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forwarder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -876,15 +748,21 @@
       <workItem from="1518075315009" duration="3360000" />
       <workItem from="1518141438509" duration="1793000" />
       <workItem from="1518157958447" duration="717000" />
-      <workItem from="1518161966708" duration="565000" />
+      <workItem from="1518161966708" duration="1187000" />
+      <workItem from="1518241295628" duration="2249000" />
+      <workItem from="1518245530264" duration="20086000" />
+      <workItem from="1518399588038" duration="11241000" />
+      <workItem from="1518487077201" duration="5613000" />
+      <workItem from="1519608265860" duration="15856000" />
+      <workItem from="1519694757172" duration="17297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34438000" />
+    <option name="totallyTimeSpent" value="107402000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -894,16 +772,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23319027" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19456366" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -914,7 +792,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5102639" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -930,8 +808,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java</url>
-          <line>72</line>
-          <properties class="com.guguangming.forwarder.dao.CertificateDao">
+          <line>20</line>
+          <properties class="com.guguangming.forwarder.dao.CertificateDao" method="addCertificate">
             <option name="EMULATED" value="true" />
           </properties>
         </line-breakpoint>
@@ -945,115 +823,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseJdbcUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="87" column="44" lean-forward="true" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="116" lean-forward="false" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/111" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNotice.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBanner.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoHeadPortraitEntity.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/Criteria.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1237">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="60" column="39" lean-forward="false" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="39" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrderEntity.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseClientGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1920,13 +1689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.14/druid-1.0.14.jar!/com/alibaba/druid/util/JdbcUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1948,21 +1710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1970,10 +1717,414 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrderDao.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseJdbcUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="58" column="37" lean-forward="false" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        <state relative-caret-position="211">
+          <caret line="181" column="29" lean-forward="false" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forwarder-dao.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180209.101753-3.jar!/com/moxie/commons/BaseJdbcUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="126" column="29" lean-forward="false" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/aspect/DaoAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/config/DaoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/service/11" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/service/AdministratorInfoService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.2.7.RELEASE/spring-jdbc-4.2.7.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="275" column="17" lean-forward="false" selection-start-line="275" selection-start-column="17" selection-end-line="275" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/AdministratorInfoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisBannerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#474#475#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/EmployeesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CertificateEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="47" />
+          <folding>
+            <element signature="e#1292#1293#0" expanded="false" />
+            <element signature="e#1346#1347#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/BusinessScopeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CheckNoticeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#428#429#0" expanded="false" />
+            <element signature="e#464#465#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/CompanySynopsisEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/HomeBannerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ImportantAnnouncementEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/NewsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519714088906" expanded="true" signature="570:703" ph="INSERT INTO business_scope... " />
+            <marker date="1519714088906" expanded="true" signature="917:945" ph="SELECT * FRO... business_scope" />
+            <marker date="1519714088906" expanded="true" signature="1232:1282" ph="SELECT busin... business_scope" />
+            <marker date="1519714088906" expanded="true" signature="1232:1283" ph="SELECT busin... business_scope" />
+            <marker date="1519714088906" expanded="true" signature="1624:1668" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="1624:1669" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="1624:1730" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="1624:1731" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="2014:2059" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="2014:2120" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="2014:2121" ph="UPDATE busin... " />
+            <marker date="1519714088906" expanded="true" signature="2375:2422" ph="DELETE FROM " />
+            <marker date="1519714088906" expanded="true" signature="2375:2423" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CheckNoticeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519703779926" expanded="true" signature="524:575" ph="SELECT notic... check_notice" />
+            <marker date="1519703779926" expanded="true" signature="825:857" ph="UPDATE check... " />
+            <marker date="1519703779926" expanded="true" signature="825:858" ph="UPDATE check... " />
+            <marker date="1519703779926" expanded="true" signature="825:870" ph="UPDATE check... " />
+            <marker date="1519703779926" expanded="true" signature="825:891" ph="UPDATE check... " />
+            <marker date="1519703779926" expanded="true" signature="1101:1145" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/OrdersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="119" column="12" lean-forward="false" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
+          <folding>
+            <element signature="e#2232#2233#0" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisBannerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519703779917" expanded="true" signature="606:685" ph="INSERT INTO company_synopsis_banner... " />
+            <marker date="1519703779917" expanded="true" signature="932:969" ph="SELECT * FRO... company_synopsis_bannermissingValue" />
+            <marker date="1519703779917" expanded="true" signature="1326:1432" ph="SELECT compa... company_synopsis_banner" />
+            <marker date="1519703779917" expanded="true" signature="1326:1433" ph="SELECT compa... company_synopsis_banner" />
+            <marker date="1519703779917" expanded="true" signature="1803:1871" ph="UPDATE compa... " />
+            <marker date="1519703779917" expanded="true" signature="1803:1872" ph="UPDATE compa... " />
+            <marker date="1519703779917" expanded="true" signature="1803:1962" ph="UPDATE compa... " />
+            <marker date="1519703779917" expanded="true" signature="1803:1963" ph="UPDATE compa... " />
+            <marker date="1519703779917" expanded="true" signature="2260:2334" ph="DELETE FROM " />
+            <marker date="1519703779917" expanded="true" signature="2260:2335" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CompanySynopsisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519703971718" expanded="true" signature="500:550" ph="SELECT synop... company_synopsis" />
+            <marker date="1519703971718" expanded="true" signature="795:833" ph="UPDATE compa... " />
+            <marker date="1519703971718" expanded="true" signature="795:834" ph="UPDATE compa... " />
+            <marker date="1519703971718" expanded="true" signature="795:863" ph="UPDATE compa... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/EmployeesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <marker date="1519714088891" expanded="true" signature="529:666" ph="INSERT INTO employees... " />
+            <marker date="1519714088891" expanded="true" signature="875:898" ph="SELECT * FRO... employees" />
+            <marker date="1519714088891" expanded="true" signature="1161:1205" ph="SELECT * FRO... employees" />
+            <marker date="1519714088891" expanded="true" signature="1485:1526" ph="UPDATE emplo... " />
+            <marker date="1519714088891" expanded="true" signature="1485:1608" ph="UPDATE emplo... " />
+            <marker date="1519714088891" expanded="true" signature="1485:1690" ph="UPDATE emplo... " />
+            <marker date="1519714088891" expanded="true" signature="1485:1773" ph="UPDATE emplo... " />
+            <marker date="1519714088891" expanded="true" signature="2031:2073" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/HomeBannerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519703971739" expanded="true" signature="539:616" ph="INSERT INTO home_banner... " />
+            <marker date="1519703971739" expanded="true" signature="828:853" ph="SELECT * FRO... home_banner" />
+            <marker date="1519703971739" expanded="true" signature="828:854" ph="SELECT home_... home_banner" />
+            <marker date="1519703971739" expanded="true" signature="1139:1209" ph="SELECT home_... home_banner" />
+            <marker date="1519703971739" expanded="true" signature="1515:1559" ph="UPDATE home_... " />
+            <marker date="1519703971739" expanded="true" signature="1515:1610" ph="UPDATE home_... " />
+            <marker date="1519703971739" expanded="true" signature="1864:1914" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ImportantAnnouncementDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <marker date="1519714088877" expanded="true" signature="833:984" ph="INSERT INTO important_announcement... " />
+            <marker date="1519714088877" expanded="true" signature="1225:1261" ph="SELECT * FRO... important_announcement" />
+            <marker date="1519714088877" expanded="true" signature="1568:1628" ph="SELECT * FRO... important_announcement" />
+            <marker date="1519714088877" expanded="true" signature="1957:2019" ph="SELECT * FRO... important_announcement" />
+            <marker date="1519714088877" expanded="true" signature="2348:2410" ph="SELECT * FRO... important_announcement" />
+            <marker date="1519714088877" expanded="true" signature="2751:2804" ph="UPDATE impor... " />
+            <marker date="1519714088877" expanded="true" signature="2751:2901" ph="UPDATE impor... " />
+            <marker date="1519714088877" expanded="true" signature="2751:2998" ph="UPDATE impor... " />
+            <marker date="1519714088877" expanded="true" signature="2751:3095" ph="UPDATE impor... " />
+            <marker date="1519714088877" expanded="true" signature="3395:3453" ph="DELETE FROM " />
+            <marker date="1519714088877" expanded="true" signature="3725:3785" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1016">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <marker date="1519714088916" expanded="true" signature="521:710" ph="INSERT INTO news... " />
+            <marker date="1519714088916" expanded="true" signature="521:751" ph="INSERT INTO news... " />
+            <marker date="1519714088916" expanded="true" signature="941:959" ph="SELECT * FRO... news" />
+            <marker date="1519714088916" expanded="true" signature="1176:1205" ph="SELECT * FRO... news" />
+            <marker date="1519714088916" expanded="true" signature="1449:1486" ph="SELECT * FRO... news" />
+            <marker date="1519714088916" expanded="true" signature="1734:1770" ph="SELECT * FRO... news" />
+            <marker date="1519714088916" expanded="true" signature="2018:2046" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2111" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2177" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2243" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2245" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2322" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2393" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2018:2452" ph="UPDATE news " />
+            <marker date="1519714088916" expanded="true" signature="2670:2697" ph="DELETE FROM " />
+            <marker date="1519714088916" expanded="true" signature="2916:2950" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/OrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="131" column="7" lean-forward="false" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519714887994" expanded="true" signature="511:1210" ph="INSERT INTO orders... " />
+            <marker date="1519714887994" expanded="true" signature="511:1276" ph="INSERT INTO orders... " />
+            <marker date="1519714887994" expanded="true" signature="1473:1493" ph="SELECT * FRO... orders" />
+            <marker date="1519714887994" expanded="true" signature="1764:1814" ph="SELECT * FRO... orders" />
+            <marker date="1519714887994" expanded="true" signature="2101:2148" ph="SELECT * FRO... orders" />
+            <marker date="1519714887994" expanded="true" signature="2431:2469" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2541" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2605" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2665" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2738" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2818" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2888" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:2960" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3041" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3121" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3199" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3273" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3345" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3418" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3499" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3588" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3678" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="2431:3771" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="4050:5392" ph="UPDATE order... " />
+            <marker date="1519714887994" expanded="true" signature="5675:5723" ph="DELETE FROM " />
+            <marker date="1519714887994" expanded="true" signature="5985:6030" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/CertificateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519714088861" expanded="true" signature="542:707" ph="INSERT INTO certificate... " />
+            <marker date="1519714088861" expanded="true" signature="542:708" ph="INSERT INTO certificate... " />
+            <marker date="1519714088861" expanded="true" signature="542:727" ph="INSERT INTO certificate... " />
+            <marker date="1519714088861" expanded="true" signature="940:965" ph="SELECT * FRO... certificate" />
+            <marker date="1519714088861" expanded="true" signature="1245:1295" ph="SELECT * FRO... certificate" />
+            <marker date="1519714088861" expanded="true" signature="1245:1296" ph="SELECT * FRO... certificate" />
+            <marker date="1519714088861" expanded="true" signature="1602:1646" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1647" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1735" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1736" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1822" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1823" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1910" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="1602:1911" ph="UPDATE certi... " />
+            <marker date="1519714088861" expanded="true" signature="2197:2244" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/ProjectSuccessEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/ProjectSuccessDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <marker date="1519716152712" expanded="true" signature="561:713" ph="INSERT INTO project_success... " />
+            <marker date="1519716152712" expanded="true" signature="561:730" ph="INSERT INTO project_success... " />
+            <marker date="1519716152712" expanded="true" signature="965:994" ph="SELECT * FRO... project_success" />
+            <marker date="1519716152712" expanded="true" signature="1265:1313" ph="SELECT * FRO... project_success" />
+            <marker date="1519716152712" expanded="true" signature="1602:1652" ph="SELECT * FRO... project_success" />
+            <marker date="1519716152712" expanded="true" signature="1962:2003" ph="UPDATE proje... " />
+            <marker date="1519716152712" expanded="true" signature="1962:2083" ph="UPDATE proje... " />
+            <marker date="1519716152712" expanded="true" signature="1962:2166" ph="UPDATE proje... " />
+            <marker date="1519716152712" expanded="true" signature="1962:2247" ph="UPDATE proje... " />
+            <marker date="1519716152712" expanded="true" signature="1962:2327" ph="UPDATE proje... " />
+            <marker date="1519716152712" expanded="true" signature="2582:2628" ph="DELETE FROM " />
+            <marker date="1519716152712" expanded="true" signature="2861:2909" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1985,103 +2136,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/BaseJdbcUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="181" column="29" lean-forward="false" selection-start-line="181" selection-start-column="29" selection-end-line="181" selection-end-column="29" />
+        <state relative-caret-position="57">
+          <caret line="3" column="116" lean-forward="true" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/config/DaoConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/SailingScheduleEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="437">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2807#2808#0" expanded="false" />
-            <element signature="e#2866#2867#0" expanded="false" />
-            <element signature="e#3137#3138#0" expanded="false" />
-            <element signature="e#3212#3213#0" expanded="false" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/moxie/commons/commons-utils/1.2-SNAPSHOT/commons-utils-1.2-20180109.055302-2.jar!/com/moxie/commons/model/PageResponse.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/SailingScheduleDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="16" />
+          <caret line="36" column="47" lean-forward="false" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <marker date="1519717690949" expanded="true" signature="591:777" ph="INSERT INTO sailing_schedule... " />
+            <marker date="1519717690949" expanded="true" signature="591:796" ph="INSERT INTO sailing_schedule... " />
+            <marker date="1519717690949" expanded="true" signature="1008:1038" ph="SELECT * FRO... sailing_schedule" />
+            <marker date="1519717690949" expanded="true" signature="1293:1343" ph="SELECT * FRO... sailing_schedule" />
+            <marker date="1519717690949" expanded="true" signature="1614:1666" ph="SELECT * FRO... sailing_schedule" />
+            <marker date="1519717690949" expanded="true" signature="1935:1987" ph="SELECT * FRO... sailing_schedule" />
+            <marker date="1519717690949" expanded="true" signature="2308:2351" ph="UPDATE saili... " />
+            <marker date="1519717690949" expanded="true" signature="2308:2431" ph="UPDATE saili... " />
+            <marker date="1519717690949" expanded="true" signature="2308:2511" ph="UPDATE saili... " />
+            <marker date="1519717690949" expanded="true" signature="2308:2590" ph="UPDATE saili... " />
+            <marker date="1519717690949" expanded="true" signature="2308:2669" ph="UPDATE saili... " />
+            <marker date="1519717690949" expanded="true" signature="2308:2752" ph="UPDATE saili... " />
+            <marker date="1519717690949" expanded="true" signature="3030:3078" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/AdministratorInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <marker date="1519724060609" expanded="true" signature="577:641" ph="SELECT COUNT... administrator_info" />
+            <marker date="1519724060609" expanded="true" signature="577:642" ph="SELECT COUNT... administrator_info" />
+            <marker date="1519724060609" expanded="true" signature="577:734" ph="SELECT COUNT... administrator_info" />
+            <marker date="1519724060609" expanded="true" signature="577:735" ph="SELECT COUNT... administrator_info" />
+            <marker date="1519724060609" expanded="true" signature="577:819" ph="SELECT COUNT... administrator_info" />
+            <marker date="1519724060609" expanded="true" signature="577:820" ph="SELECT COUNT... administrator_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoHeadPortraitEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/NewsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoHeadPortraitDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/entity/UserInfoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4238#4239#0" expanded="false" />
-            <element signature="e#4271#4272#0" expanded="false" />
+            <element signature="method#setSecurityQuestionType#0;class#UserInfoEntity#0" expanded="false" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2774">
+          <caret line="146" column="36" lean-forward="false" selection-start-line="146" selection-start-column="36" selection-end-line="146" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519724791894" expanded="true" signature="526:696" ph="INSERT INTO user_info... " />
+            <marker date="1519724791894" expanded="true" signature="526:715" ph="INSERT INTO user_info... " />
+            <marker date="1519724791894" expanded="true" signature="904:927" ph="SELECT * FRO... user_info" />
+            <marker date="1519724791894" expanded="true" signature="1172:1211" ph="SELECT * FRO... user_info" />
+            <marker date="1519724791894" expanded="true" signature="1460:1497" ph="SELECT * FRO... user_info" />
+            <marker date="1519724791894" expanded="true" signature="1761:1823" ph="SELECT user_... user_info" />
+            <marker date="1519724791894" expanded="true" signature="2070:2114" ph="SELECT FROM user_info" />
+            <marker date="1519724791894" expanded="true" signature="2349:2393" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="2349:2422" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="2349:2456" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="2785:2846" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="2785:2911" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="3185:3229" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="3185:3256" ph="SELECT COUNT... user_info" />
+            <marker date="1519724791894" expanded="true" signature="3501:3532" ph="UPDATE user_... " />
+            <marker date="1519724791894" expanded="true" signature="3501:3562" ph="UPDATE user_... " />
+            <marker date="1519724791894" expanded="true" signature="3825:3857" ph="UPDATE user_... " />
+            <marker date="1519724791894" expanded="true" signature="3825:3887" ph="UPDATE user_... " />
+            <marker date="1519724791894" expanded="true" signature="4194:4287" ph="UPDATE user_... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/GeneralDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/BusinessScopePo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/aspect/DaoAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/po/OrderPo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="116" lean-forward="false" selection-start-line="3" selection-start-column="116" selection-end-line="3" selection-end-column="116" />
+        <state relative-caret-position="342">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/guguangming/forwarder/dao/BusinessScopeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -1,109 +1,155 @@
 package com.guguangming.forwarder.dao;
 
-import com.moxie.commons.BaseJdbcUtils;
-import com.moxie.commons.model.*;
-import com.guguangming.forwarder.po.UserInfoPo;
-import org.springframework.dao.EmptyResultDataAccessException;
+import com.guguangming.forwarder.entity.UserInfoEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
 @Repository
 public class UserInfoDao {
-    private final static String TABLE_NAME = "user_info";
-    private Map<String, String> dbMapping = new HashMap<>();
-    @Resource(name = "templateForwarder")
-    private JdbcTemplate template;
 
-    @PostConstruct
-    public void init() {
-        dbMapping.put("id", "id");
-        dbMapping.put("userName", "userName");
-        dbMapping.put("phone", "phone");
-        dbMapping.put("password", "password");
-        dbMapping.put("securityQuestionType", "securityQuestionType");
-        dbMapping.put("securityAnswer", "securityAnswer");
-    }
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
 
-    public boolean insert(UserInfoPo userInfo) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsert(getTable(), userInfo, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
-
-    public boolean insertIgnore(UserInfoPo userInfo) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertIgnore(getTable(), userInfo, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 移动端添加用户信息
+     *
+     * @param userInfoEntity
+     * @return
+     */
+    public boolean addUserInfo(UserInfoEntity userInfoEntity) {
+        String sql = "INSERT INTO user_info(user_name," +
+                "phone," +
+                "password," +
+                "security_question_type," +
+                "security_answer) VALUES (?,?,?,?,?)";
+        return jdbcTemplate.update(sql, userInfoEntity) == 1;
     }
 
     /**
-     * @return true when insert
+     * 查所有用户信息
+     *
+     * @return
      */
-    public boolean insertOrUpdate(UserInfoPo userInfo) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertOrUpdate(getTable(), userInfo, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    public UserInfoEntity getUserInfo() {
+        String sql = "SELECT * FROM user_info";
+        return jdbcTemplate.queryForObject(sql, UserInfoEntity.class);
     }
 
-    public int batchInsert(List<UserInfoPo> userInfos) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getBatchInsert(getTable(), userInfos, dbMapping);
-        return IntStream.of(template.batchUpdate(jdbcResult.getSql(), jdbcResult.getBatchParams())).sum();
+    /**
+     * 根据用户id查用户信息
+     *
+     * @param userId
+     * @return
+     */
+    public UserInfoEntity getUserInfoByUserId(Integer userId) {
+        String sql = "SELECT * FROM user_info WHERE user_id =" + userId;
+        return jdbcTemplate.queryForObject(sql, UserInfoEntity.class);
     }
 
-    public boolean update(UserInfoPo userInfo) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getUpdate(getTable(), userInfo, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 根据手机号查用户信息
+     *
+     * @param phone
+     * @return
+     */
+    public UserInfoEntity getUserInfoByPhone(String phone) {
+        String sql = "SELECT * FROM user_info WHERE phone =" + phone;
+        return jdbcTemplate.queryForObject(sql, UserInfoEntity.class);
     }
 
-    public boolean patch(UserInfoPo userInfo) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getPatch(getTable(), userInfo, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 根据手机号查用户头像路径
+     *
+     * @param phone
+     * @return
+     */
+    public UserInfoEntity getUserHeadPortraitImgUrlByPhone(String phone) {
+        String sql = "SELECT user_head_portrait_img_url FROM user_info WHERE phone =" + phone;
+        return jdbcTemplate.queryForObject(sql, UserInfoEntity.class);
     }
 
-    public UserInfoPo get(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelect(getTable(), Criteria.column("id").eq(id));
-        try {
-            Map<String, Object> dbRow = template.queryForMap(jdbcResult.getSql(), jdbcResult.getParams());
-            return BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, UserInfoPo.class);
-        } catch (EmptyResultDataAccessException e) {
-            return null;
-        }
+
+    /**
+     * 移动端注册时检查手机号是否已注册过
+     *
+     * @param phone
+     * @return
+     */
+    public boolean checkSameByPhone(String phone) {
+        String sql = "SELECT COUNT(1) FROM user_info WHERE phone =" + phone;
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public UserInfoPo getOrInsert(UserInfoPo userInfo) {
-        UserInfoPo po = this.get(userInfo.getId());
-        if (po == null) {
-            if (!this.insertIgnore(userInfo)) {
-                return this.get(userInfo.getId());
-            }
-            return userInfo;
-        }
-        return po;
+    /**
+     * 移动端登录检验
+     *
+     * @param userInfoEntity
+     * @return
+     */
+    public boolean checkLoginInfo(UserInfoEntity userInfoEntity) {
+        String sql = "SELECT COUNT(1) FROM user_info WHERE phone =" + userInfoEntity.getPhone()
+                + " && password =" + userInfoEntity.getPassword();
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public PageResponse<UserInfoPo> getPage(PageRequest pageRequest) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelectForCount(getTable(), (Criteria) null);
-        Integer total = template.queryForObject(jdbcResult.getSql(), jdbcResult.getParams(), Integer.class);
-        if(total == 0) {
-            return new PageResponse<>(0, null);
-        }
-
-        jdbcResult = BaseJdbcUtils.getSelect(getTable(), (Criteria) null, pageRequest);
-        List<UserInfoPo> datas = template.queryForList(jdbcResult.getSql(), jdbcResult.getParams()).stream()
-                .map(dbRow -> BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, UserInfoPo.class))
-                .collect(Collectors.toList());
-        return new PageResponse<>(total, datas);
+    /**
+     * 移动端忘记密码时密保问题校验
+     *
+     * @param securityQuestionType
+     * @param securityAnswer
+     * @return
+     */
+    public boolean checkSecurityQuestion(Integer securityQuestionType, String securityAnswer) {
+        String sql = "SELECT COUNT(1) FROM user_info WHERE security_question_type =" + securityQuestionType
+                + " && security_answer =" + securityAnswer;
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public int delete(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getDelete(getTable(), Criteria.column("id").eq(id));
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams());
+    /**
+     * 移动端修改密码时对原密码校验
+     *
+     * @param phone
+     * @param password
+     * @return
+     */
+    public boolean checkPasswordWhenChange(String phone, String password) {
+        String sql = "SELECT COUNT(1) FROM user_info WHERE phone =" + phone + " && password =" + password;
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    private String getTable() {
-        return TABLE_NAME;
+    /**
+     * 移动端根据手机号修改密码
+     *
+     * @param password
+     * @return
+     */
+    public boolean updatePasswordByUserId(String password, String phone) {
+        String sql = "UPDATE user_info SET password =" + password + " WHERE phone =" + phone;
+        return jdbcTemplate.update(sql) == 1;
+    }
+
+    /**
+     * 移动端根据手机号修改用户名
+     *
+     * @param userName
+     * @param phone
+     * @return
+     */
+    public boolean updateUserNameByUserId(String userName, String phone) {
+        String sql = "UPDATE user_info SET user_name =" + userName + " WHERE phone =" + phone;
+        return jdbcTemplate.update(sql) == 1;
+    }
+
+    /**
+     * 移动端根据手机号修改用户头像路径
+     *
+     * @param userHeadPortraitImgUrl
+     * @param phone
+     * @return
+     */
+    public boolean updateUserHeadPortraitImgUrlByPhone(String userHeadPortraitImgUrl, String phone) {
+        String sql = "UPDATE user_info SET user_head_portrait_img_url =" + userHeadPortraitImgUrl + " WHERE phone =" + phone;
+        return jdbcTemplate.update(sql) == 1;
     }
 }

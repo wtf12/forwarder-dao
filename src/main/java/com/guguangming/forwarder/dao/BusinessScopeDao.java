@@ -1,110 +1,88 @@
 package com.guguangming.forwarder.dao;
 
-import com.moxie.commons.BaseJdbcUtils;
-import com.moxie.commons.model.*;
-import com.guguangming.forwarder.po.BusinessScopePo;
-import org.springframework.dao.EmptyResultDataAccessException;
+import com.guguangming.forwarder.entity.BusinessScopeEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  *
  */
 @Repository
 public class BusinessScopeDao {
-    private final static String TABLE_NAME = "business_scope";
-    private Map<String, String> dbMapping = new HashMap<>();
-    @Resource(name = "templateForwarder")
-    private JdbcTemplate template;
 
-    @PostConstruct
-    public void init() {
-        dbMapping.put("id", "id");
-        dbMapping.put("businessName", "businessName");
-        dbMapping.put("describeKeyword", "describeKeyword");
-        dbMapping.put("businessContent", "businessContent");
-    }
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
 
-    public boolean insert(BusinessScopePo businessScope) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsert(getTable(), businessScope, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
 
-    public boolean insertIgnore(BusinessScopePo businessScope) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertIgnore(getTable(), businessScope, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 添加公司业务范围信息
+     *
+     * @param businessScopeEntity
+     * @return
+     */
+    public boolean addBusinessScope(BusinessScopeEntity businessScopeEntity) {
+        String sql = "INSERT INTO business_scope(business_name, " +
+                "describe_keyword, " +
+                "business_content) VALUES(?,?,?)";
+        return jdbcTemplate.update(sql, businessScopeEntity) == 1;
     }
 
     /**
-     * @return true when insert
+     * 查找所有业务范围内容
+     *
+     * @return
      */
-    public boolean insertOrUpdate(BusinessScopePo businessScope) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertOrUpdate(getTable(), businessScope, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    public BusinessScopeEntity getBusinessScopeContent() {
+        String sql = "SELECT * FROM business_scope";
+        return jdbcTemplate.queryForObject(sql, BusinessScopeEntity.class);
     }
 
-    public int batchInsert(List<BusinessScopePo> businessScopes) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getBatchInsert(getTable(), businessScopes, dbMapping);
-        return IntStream.of(template.batchUpdate(jdbcResult.getSql(), jdbcResult.getBatchParams())).sum();
+    /**
+     * 通过业务名称查找业务范围内容
+     *
+     * @param businessName
+     * @return
+     */
+    public BusinessScopeEntity getBusinessScopeContentByBusinessName(String businessName) {
+        String sql = "SELECT * FROM business_scope WHERE business_name = " + businessName;
+        return jdbcTemplate.queryForObject(sql, BusinessScopeEntity.class);
     }
 
-    public boolean update(BusinessScopePo businessScope) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getUpdate(getTable(), businessScope, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 通过业务名称更新关键字描述
+     *
+     * @param describeKeyword
+     * @param businessName
+     * @return
+     */
+    public boolean updateDescribeKeywordByBusinessName(String describeKeyword, String businessName) {
+        String sql = "UPDATE business_scope SET describe_keyword = " + describeKeyword
+                + " WHERE business_name = " + businessName;
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public boolean patch(BusinessScopePo businessScope) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getPatch(getTable(), businessScope, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 通过业务名称更新业务内容
+     *
+     * @param businessContent
+     * @return
+     */
+    public boolean updateBusinessContentByBusinessName(String businessContent, String businessName) {
+        String sql = "UPDATE business_scope SET business_content = " + businessContent
+                + " WHERE business_name = " + businessName;
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public BusinessScopePo get(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelect(getTable(), Criteria.column("id").eq(id));
-        try {
-            Map<String, Object> dbRow = template.queryForMap(jdbcResult.getSql(), jdbcResult.getParams());
-            return BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, BusinessScopePo.class);
-        } catch (EmptyResultDataAccessException e) {
-            return null;
-        }
-    }
-
-    public BusinessScopePo getOrInsert(BusinessScopePo businessScope) {
-        BusinessScopePo po = this.get(businessScope.getId());
-        if (po == null) {
-            if (!this.insertIgnore(businessScope)) {
-                return this.get(businessScope.getId());
-            }
-            return businessScope;
-        }
-        return po;
-    }
-
-    public PageResponse<BusinessScopePo> getPage(PageRequest pageRequest) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelectForCount(getTable(), (Criteria) null);
-        Integer total = template.queryForObject(jdbcResult.getSql(), jdbcResult.getParams(), Integer.class);
-        if(total == 0) {
-            return new PageResponse<>(0, null);
-        }
-
-        jdbcResult = BaseJdbcUtils.getSelect(getTable(), (Criteria) null, pageRequest);
-        List<BusinessScopePo> datas = template.queryForList(jdbcResult.getSql(), jdbcResult.getParams()).stream()
-                .map(dbRow -> BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, BusinessScopePo.class))
-                .collect(Collectors.toList());
-        return new PageResponse<>(total, datas);
-    }
-
-    public int delete(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getDelete(getTable(), Criteria.column("id").eq(id));
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams());
-    }
-
-    private String getTable() {
-        return TABLE_NAME;
+    /**
+     * 通过业务名称删除业务内容
+     *
+     * @param businessName
+     * @return
+     */
+    public boolean deleteBusinessScopeByBusinessName(String businessName) {
+        String sql = "DELETE FROM business_scope WHERE businessName = " + businessName;
+        return jdbcTemplate.update(sql) == 1;
     }
 }

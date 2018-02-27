@@ -1,107 +1,73 @@
 package com.guguangming.forwarder.dao;
 
-import com.moxie.commons.BaseJdbcUtils;
-import com.moxie.commons.model.*;
-import com.guguangming.forwarder.po.EmployeesPo;
-import org.springframework.dao.EmptyResultDataAccessException;
+import com.guguangming.forwarder.entity.EmployeesEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-
 @Repository
 public class EmployeesDao {
-    private final static String TABLE_NAME = "employees";
-    private Map<String, String> dbMapping = new HashMap<>();
-    @Resource(name = "templateForwarder")
-    private JdbcTemplate template;
 
-    @PostConstruct
-    public void init() {
-        dbMapping.put("id", "id");
-        dbMapping.put("employeesImgUrl", "employeesImgUrl");
-        dbMapping.put("employeesSynopsis", "employeesSynopsis");
-        dbMapping.put("employeesImgName", "employeesImgName");
-    }
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
 
-    public boolean insert(EmployeesPo employees) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsert(getTable(), employees, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
-
-    public boolean insertIgnore(EmployeesPo employees) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertIgnore(getTable(), employees, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 添加员工信息
+     *
+     * @param employeesEntity
+     * @return
+     */
+    public boolean addEmployees(EmployeesEntity employeesEntity) {
+        String sql = "INSERT INTO employees(employees_img_name, " +
+                "employees_img_url, " +
+                "employees_synopsis) VALUES (?,?,?)";
+        return jdbcTemplate.update(sql, employeesEntity) == 1;
     }
 
     /**
-     * @return true when insert
+     * 查找所有员工照片信息
+     *
+     * @param
+     * @return
      */
-    public boolean insertOrUpdate(EmployeesPo employees) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertOrUpdate(getTable(), employees, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    public EmployeesEntity getEmployees() {
+        String sql = "SELECT * FROM employees";
+        return jdbcTemplate.queryForObject(sql, EmployeesEntity.class);
     }
 
-    public int batchInsert(List<EmployeesPo> employeess) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getBatchInsert(getTable(), employeess, dbMapping);
-        return IntStream.of(template.batchUpdate(jdbcResult.getSql(), jdbcResult.getBatchParams())).sum();
+    /**
+     * 根据编号查找员工照片信息
+     *
+     * @param employeesId
+     * @return
+     */
+    public EmployeesEntity getEmployeesByEmployeesId(String employeesId) {
+        String sql = "SELECT * FROM employees WHERE employees_id =" + employeesId;
+        return jdbcTemplate.queryForObject(sql, EmployeesEntity.class);
     }
 
-    public boolean update(EmployeesPo employees) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getUpdate(getTable(), employees, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 根据编号更新员工照片信息
+     *
+     * @param employeesEntity
+     * @return
+     */
+    public boolean updateEmployeesById(EmployeesEntity employeesEntity) {
+        String sql = "UPDATE employees SET employees_img_name =" + employeesEntity.getEmployeesImgName()
+                + ", employees_img_url =" + employeesEntity.getEmployeesImgUrl()
+                + ", employees_synopsis =" + employeesEntity.getEmployeesSynopsis()
+                + " WHERE employees_id =" + employeesEntity.getEmployeesId();
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public boolean patch(EmployeesPo employees) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getPatch(getTable(), employees, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
-
-    public EmployeesPo get(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelect(getTable(), Criteria.column("id").eq(id));
-        try {
-            Map<String, Object> dbRow = template.queryForMap(jdbcResult.getSql(), jdbcResult.getParams());
-            return BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, EmployeesPo.class);
-        } catch (EmptyResultDataAccessException e) {
-            return null;
-        }
-    }
-
-    public EmployeesPo getOrInsert(EmployeesPo employees) {
-        EmployeesPo po = this.get(employees.getId());
-        if (po == null) {
-            if (!this.insertIgnore(employees)) {
-                return this.get(employees.getId());
-            }
-            return employees;
-        }
-        return po;
-    }
-
-    public PageResponse<EmployeesPo> getPage(PageRequest pageRequest) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelectForCount(getTable(), (Criteria) null);
-        Integer total = template.queryForObject(jdbcResult.getSql(), jdbcResult.getParams(), Integer.class);
-        if(total == 0) {
-            return new PageResponse<>(0, null);
-        }
-
-        jdbcResult = BaseJdbcUtils.getSelect(getTable(), (Criteria) null, pageRequest);
-        List<EmployeesPo> datas = template.queryForList(jdbcResult.getSql(), jdbcResult.getParams()).stream()
-                .map(dbRow -> BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, EmployeesPo.class))
-                .collect(Collectors.toList());
-        return new PageResponse<>(total, datas);
-    }
-
-    public int delete(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getDelete(getTable(), Criteria.column("id").eq(id));
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams());
-    }
-
-    private String getTable() {
-        return TABLE_NAME;
+    /**
+     * 根据编号删除员工照片信息
+     *
+     * @param employeesId
+     * @return
+     */
+    public boolean deleteEmployeesById(String employeesId) {
+        String sql = "DELETE FROM employees WHERE employees_id =" + employeesId;
+        return jdbcTemplate.update(sql) == 1;
     }
 }

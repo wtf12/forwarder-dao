@@ -1,105 +1,70 @@
 package com.guguangming.forwarder.dao;
 
-import com.moxie.commons.BaseJdbcUtils;
-import com.moxie.commons.model.*;
-import com.guguangming.forwarder.po.CompanySynopsisBannerPo;
-import org.springframework.dao.EmptyResultDataAccessException;
+import com.guguangming.forwarder.entity.CompanySynopsisBannerEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 @Repository
 public class CompanySynopsisBannerDao {
-    private final static String TABLE_NAME = "company_synopsis_banner";
-    private Map<String, String> dbMapping = new HashMap<>();
-    @Resource(name = "templateForwarder")
-    private JdbcTemplate template;
 
-    @PostConstruct
-    public void init() {
-        dbMapping.put("id", "id");
-        dbMapping.put("companySynopsisBannerImgUrl", "companySynopsisBannerImgUrl");
-    }
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
 
-    public boolean insert(CompanySynopsisBannerPo companySynopsisBanner) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsert(getTable(), companySynopsisBanner, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
-
-    public boolean insertIgnore(CompanySynopsisBannerPo companySynopsisBanner) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertIgnore(getTable(), companySynopsisBanner, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 添加公司介绍轮播图片
+     *
+     * @param companySynopsisBannerEntity
+     * @return
+     */
+    public boolean addCompanySynopsisBanner(CompanySynopsisBannerEntity companySynopsisBannerEntity) {
+        String sql = "INSERT INTO company_synopsis_banner(company_synopsis_banner_img_url) VALUES (?)";
+        return jdbcTemplate.update(sql, companySynopsisBannerEntity) == 1;
     }
 
     /**
-     * @return true when insert
+     * 查找所有公司介绍轮播图片
+     *
+     * @param
+     * @return
      */
-    public boolean insertOrUpdate(CompanySynopsisBannerPo companySynopsisBanner) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertOrUpdate(getTable(), companySynopsisBanner, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    public CompanySynopsisBannerEntity getCompanySynopsisBanner() {
+        String sql = "SELECT * FROM company_synopsis_banner";
+        return jdbcTemplate.queryForObject(sql, CompanySynopsisBannerEntity.class);
     }
 
-    public int batchInsert(List<CompanySynopsisBannerPo> companySynopsisBanners) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getBatchInsert(getTable(), companySynopsisBanners, dbMapping);
-        return IntStream.of(template.batchUpdate(jdbcResult.getSql(), jdbcResult.getBatchParams())).sum();
+    /**
+     * 根据公司介绍轮播图片编号查找公司介绍轮播图片路径
+     *
+     * @param companySynopsisBannerImgId
+     * @return
+     */
+    public CompanySynopsisBannerEntity getCompanySynopsisBannerByCompanySynopsisBannerImgId(Integer companySynopsisBannerImgId) {
+        String sql = "SELECT company_synopsis_banner_img_url FROM company_synopsis_banner WHERE company_synopsis_banner_img_id = " + companySynopsisBannerImgId;
+        return jdbcTemplate.queryForObject(sql, CompanySynopsisBannerEntity.class);
     }
 
-    public boolean update(CompanySynopsisBannerPo companySynopsisBanner) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getUpdate(getTable(), companySynopsisBanner, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 根据编号更新公司介绍轮播图片路径
+     *
+     * @param
+     * @return
+     */
+    public boolean updateCompanySynopsisBannerByCompanySynopsisBannerImgId(Integer companySynopsisBannerImgUrl, String companySynopsisBannerImgId) {
+        String sql = "UPDATE company_synopsis_banner SET company_synopsis_banner_img_url = " + companySynopsisBannerImgUrl
+                + " WHERE company_synopsis_banner_img_id = " + companySynopsisBannerImgId;
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public boolean patch(CompanySynopsisBannerPo companySynopsisBanner) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getPatch(getTable(), companySynopsisBanner, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
-
-    public CompanySynopsisBannerPo get(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelect(getTable(), Criteria.column("id").eq(id));
-        try {
-            Map<String, Object> dbRow = template.queryForMap(jdbcResult.getSql(), jdbcResult.getParams());
-            return BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, CompanySynopsisBannerPo.class);
-        } catch (EmptyResultDataAccessException e) {
-            return null;
-        }
-    }
-
-    public CompanySynopsisBannerPo getOrInsert(CompanySynopsisBannerPo companySynopsisBanner) {
-        CompanySynopsisBannerPo po = this.get(companySynopsisBanner.getId());
-        if (po == null) {
-            if (!this.insertIgnore(companySynopsisBanner)) {
-                return this.get(companySynopsisBanner.getId());
-            }
-            return companySynopsisBanner;
-        }
-        return po;
-    }
-
-    public PageResponse<CompanySynopsisBannerPo> getPage(PageRequest pageRequest) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelectForCount(getTable(), (Criteria) null);
-        Integer total = template.queryForObject(jdbcResult.getSql(), jdbcResult.getParams(), Integer.class);
-        if(total == 0) {
-            return new PageResponse<>(0, null);
-        }
-
-        jdbcResult = BaseJdbcUtils.getSelect(getTable(), (Criteria) null, pageRequest);
-        List<CompanySynopsisBannerPo> datas = template.queryForList(jdbcResult.getSql(), jdbcResult.getParams()).stream()
-                .map(dbRow -> BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, CompanySynopsisBannerPo.class))
-                .collect(Collectors.toList());
-        return new PageResponse<>(total, datas);
-    }
-
-    public int delete(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getDelete(getTable(), Criteria.column("id").eq(id));
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams());
-    }
-
-    private String getTable() {
-        return TABLE_NAME;
+    /**
+     * 根据编号删除公司介绍轮播图片
+     *
+     * @param companySynopsisBannerImgId
+     * @return
+     */
+    public boolean deleteCompanySynopsisBannerById(Integer companySynopsisBannerImgId) {
+        String sql = "DELETE FROM company_synopsis_banner WHERE company_synopsis_banner_img_id = " + companySynopsisBannerImgId;
+        return jdbcTemplate.update(sql) == 1;
     }
 }

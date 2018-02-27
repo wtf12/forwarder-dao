@@ -1,108 +1,98 @@
 package com.guguangming.forwarder.dao;
 
-import com.moxie.commons.BaseJdbcUtils;
-import com.moxie.commons.model.*;
-import com.guguangming.forwarder.po.SailingSchedulePo;
-import org.springframework.dao.EmptyResultDataAccessException;
+import com.guguangming.forwarder.entity.SailingScheduleEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.Date;
+
 
 @Repository
 public class SailingScheduleDao {
-    private final static String TABLE_NAME = "sailing_schedule";
-    private Map<String, String> dbMapping = new HashMap<>();
-    @Resource(name = "templateForwarder")
-    private JdbcTemplate template;
 
-    @PostConstruct
-    public void init() {
-        dbMapping.put("id", "id");
-        dbMapping.put("scheduleName", "scheduleName");
-        dbMapping.put("scheduleSize", "scheduleSize");
-        dbMapping.put("scheduleType", "scheduleType");
-        dbMapping.put("scheduleUrl", "scheduleUrl");
-    }
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
 
-    public boolean insert(SailingSchedulePo sailingSchedule) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsert(getTable(), sailingSchedule, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
-    }
-
-    public boolean insertIgnore(SailingSchedulePo sailingSchedule) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertIgnore(getTable(), sailingSchedule, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 添加船期表信息
+     *
+     * @param sailingScheduleEntity
+     * @return
+     */
+    public boolean addSailingSchedule(SailingScheduleEntity sailingScheduleEntity) {
+        String sql = "INSERT INTO sailing_schedule(schedule_name, " +
+                "schedule_size, " +
+                "schedule_type, " +
+                "schedule_url, " +
+                "schedule_time) VALUES (?,?,?,?,?)";
+        return jdbcTemplate.update(sql, sailingScheduleEntity) == 1;
     }
 
     /**
-     * @return true when insert
+     * 查找所有船期表信息
+     *
+     * @return
      */
-    public boolean insertOrUpdate(SailingSchedulePo sailingSchedule) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getInsertOrUpdate(getTable(), sailingSchedule, dbMapping);
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    public SailingScheduleEntity getSailingSchedule() {
+        String sql = "SELECT * FROM sailing_schedule";
+        return jdbcTemplate.queryForObject(sql, SailingScheduleEntity.class);
     }
 
-    public int batchInsert(List<SailingSchedulePo> sailingSchedules) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getBatchInsert(getTable(), sailingSchedules, dbMapping);
-        return IntStream.of(template.batchUpdate(jdbcResult.getSql(), jdbcResult.getBatchParams())).sum();
+    /**
+     * 根据船期表编号查船期表信息
+     *
+     * @return
+     */
+    public SailingScheduleEntity getSailingScheduleByScheduleId(Integer scheduleId) {
+        String sql = "SELECT * FROM sailing_schedule WHERE schedule_id =" + scheduleId;
+        return jdbcTemplate.queryForObject(sql, SailingScheduleEntity.class);
     }
 
-    public boolean update(SailingSchedulePo sailingSchedule) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getUpdate(getTable(), sailingSchedule, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 根据船期表名字超船期表信息
+     *
+     * @return
+     */
+    public SailingScheduleEntity getSailingScheduleByScheduleName(String scheduleName) {
+        String sql = "SELECT * FROM sailing_schedule WHERE schedule_name =" + scheduleName;
+        return jdbcTemplate.queryForObject(sql, SailingScheduleEntity.class);
     }
 
-    public boolean patch(SailingSchedulePo sailingSchedule) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getPatch(getTable(), sailingSchedule, dbMapping, "id");
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams()) == 1;
+    /**
+     * 根据船期表时间查船期表
+     *
+     * @return
+     */
+    public SailingScheduleEntity getSailingScheduleByScheduleTime(Date scheduleTime) {
+        String sql = "SELECT * FROM sailing_schedule WHERE schedule_time =" + scheduleTime;
+        return jdbcTemplate.queryForObject(sql, SailingScheduleEntity.class);
     }
 
-    public SailingSchedulePo get(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelect(getTable(), Criteria.column("id").eq(id));
-        try {
-            Map<String, Object> dbRow = template.queryForMap(jdbcResult.getSql(), jdbcResult.getParams());
-            return BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, SailingSchedulePo.class);
-        } catch (EmptyResultDataAccessException e) {
-            return null;
-        }
+    /**
+     * 根据船期表编号更新船期表信息
+     *
+     * @param sailingScheduleEntity
+     * @return
+     */
+    public boolean updateSailingScheduleByScheduleId(SailingScheduleEntity sailingScheduleEntity) {
+        String sql = "UPDATE sailing_schedule SET schedule_name =" + sailingScheduleEntity.getScheduleName()
+                + ", schedule_size =" + sailingScheduleEntity.getScheduleSize()
+                + ", schedule_type =" + sailingScheduleEntity.getScheduleType()
+                + ", schedule_url =" + sailingScheduleEntity.getScheduleUrl()
+                + ", schedule_time =" + sailingScheduleEntity.getScheduleTime()
+                + " WHERE schedule_id =" + sailingScheduleEntity.getScheduleId();
+        return jdbcTemplate.update(sql) == 1;
     }
 
-    public SailingSchedulePo getOrInsert(SailingSchedulePo sailingSchedule) {
-        SailingSchedulePo po = this.get(sailingSchedule.getId());
-        if (po == null) {
-            if (!this.insertIgnore(sailingSchedule)) {
-                return this.get(sailingSchedule.getId());
-            }
-            return sailingSchedule;
-        }
-        return po;
-    }
-
-    public PageResponse<SailingSchedulePo> getPage(PageRequest pageRequest) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getSelectForCount(getTable(), (Criteria) null);
-        Integer total = template.queryForObject(jdbcResult.getSql(), jdbcResult.getParams(), Integer.class);
-        if(total == 0) {
-            return new PageResponse<>(0, null);
-        }
-
-        jdbcResult = BaseJdbcUtils.getSelect(getTable(), (Criteria) null, pageRequest);
-        List<SailingSchedulePo> datas = template.queryForList(jdbcResult.getSql(), jdbcResult.getParams()).stream()
-                .map(dbRow -> BaseJdbcUtils.dbRowToPo(dbRow, dbMapping, SailingSchedulePo.class))
-                .collect(Collectors.toList());
-        return new PageResponse<>(total, datas);
-    }
-
-    public int delete(Integer id) {
-        JdbcResult jdbcResult = BaseJdbcUtils.getDelete(getTable(), Criteria.column("id").eq(id));
-        return template.update(jdbcResult.getSql(), jdbcResult.getParams());
-    }
-
-    private String getTable() {
-        return TABLE_NAME;
+    /**
+     * 根据船期表编号删除船期表信息
+     *
+     * @param scheduleId
+     * @return
+     */
+    public boolean deleteSailingScheduleByScheduleId(Integer scheduleId) {
+        String sql = "DELETE FROM sailing_schedule WHERE schedule_id =" + scheduleId;
+        return jdbcTemplate.update(sql) == 1;
     }
 }
