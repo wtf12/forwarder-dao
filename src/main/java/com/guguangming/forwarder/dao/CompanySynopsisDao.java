@@ -28,7 +28,7 @@ public class CompanySynopsisDao {
      * @return
      */
     public boolean updateCompanySynopsis(String synopsis) {
-        String sql = "UPDATE company_synopsis SET synopsis = " + synopsis + " WHERE id = 1";
+        String sql = "UPDATE company_synopsis SET synopsis = '" + synopsis + "' WHERE id = 1";
         return jdbcTemplate.update(sql) == 1;
     }
 }

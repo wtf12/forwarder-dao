@@ -44,7 +44,7 @@ public class CertificateDao {
      * @return
      */
     public CertificateEntity getCertificateByCertificateName(String certificateName) {
-        String sql = "SELECT * FROM certificate WHERE certificate_name = " + certificateName;
+        String sql = "SELECT * FROM certificate WHERE certificate_name = '" + certificateName + "'";
         return jdbcTemplate.queryForObject(sql, CertificateEntity.class);
     }
 
@@ -55,10 +55,10 @@ public class CertificateDao {
      * @return
      */
     public boolean updateCertificateByCertificateName(CertificateEntity certificateEntity) {
-        String sql = "UPDATE certificate SET certificate_img_url = " + certificateEntity.getCertificateImgUrl()
-                + ", certificate_synopsis = " + certificateEntity.getCertificateSynopsis()
-                + ", certificate_time = " + certificateEntity.getCertificateTime()
-                + " WHERE certificate_name = " + certificateEntity.getCertificateName();
+        String sql = "UPDATE certificate SET certificate_img_url = '" + certificateEntity.getCertificateImgUrl()
+                + "', certificate_synopsis = '" + certificateEntity.getCertificateSynopsis()
+                + "', certificate_time = '" + certificateEntity.getCertificateTime()
+                + "' WHERE certificate_name = '" + certificateEntity.getCertificateName() + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -69,7 +69,7 @@ public class CertificateDao {
      * @return
      */
     public boolean deleteCertificateByCertificateName(String certificateName) {
-        String sql = "DELETE FROM certificate WHERE certificateName =" + certificateName;
+        String sql = "DELETE FROM certificate WHERE certificateName = '" + certificateName + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 }

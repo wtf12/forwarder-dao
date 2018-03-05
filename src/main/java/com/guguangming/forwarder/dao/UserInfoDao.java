@@ -54,7 +54,7 @@ public class UserInfoDao {
      * @return
      */
     public UserInfoEntity getUserInfoByPhone(String phone) {
-        String sql = "SELECT * FROM user_info WHERE phone =" + phone;
+        String sql = "SELECT * FROM user_info WHERE phone = '" + phone + "'";
         return jdbcTemplate.queryForObject(sql, UserInfoEntity.class);
     }
 
@@ -65,7 +65,7 @@ public class UserInfoDao {
      * @return
      */
     public UserInfoEntity getUserHeadPortraitImgUrlByPhone(String phone) {
-        String sql = "SELECT user_head_portrait_img_url FROM user_info WHERE phone =" + phone;
+        String sql = "SELECT user_head_portrait_img_url FROM user_info WHERE phone ='" + phone + "'";
         return jdbcTemplate.queryForObject(sql, UserInfoEntity.class);
     }
 
@@ -77,8 +77,8 @@ public class UserInfoDao {
      * @return
      */
     public boolean checkSameByPhone(String phone) {
-        String sql = "SELECT COUNT(1) FROM user_info WHERE phone =" + phone;
-        return jdbcTemplate.update(sql) == 1;
+        String sql = "SELECT COUNT(1) FROM user_info WHERE phone = '" + phone + "'";
+        return jdbcTemplate.queryForObject(sql, Integer.class) == 1;
     }
 
     /**
@@ -88,9 +88,9 @@ public class UserInfoDao {
      * @return
      */
     public boolean checkLoginInfo(UserInfoEntity userInfoEntity) {
-        String sql = "SELECT COUNT(1) FROM user_info WHERE phone =" + userInfoEntity.getPhone()
-                + " && password =" + userInfoEntity.getPassword();
-        return jdbcTemplate.update(sql) == 1;
+        String sql = "SELECT COUNT(1) FROM user_info WHERE phone = '" + userInfoEntity.getPhone()
+                + "' AND password = '" + userInfoEntity.getPassword() + "'";
+        return jdbcTemplate.queryForObject(sql, Integer.class) == 1;
     }
 
     /**
@@ -102,8 +102,8 @@ public class UserInfoDao {
      */
     public boolean checkSecurityQuestion(Integer securityQuestionType, String securityAnswer) {
         String sql = "SELECT COUNT(1) FROM user_info WHERE security_question_type =" + securityQuestionType
-                + " && security_answer =" + securityAnswer;
-        return jdbcTemplate.update(sql) == 1;
+                + " AND security_answer = '" + securityAnswer + "'";
+        return jdbcTemplate.queryForObject(sql, Integer.class) == 1;
     }
 
     /**
@@ -114,8 +114,8 @@ public class UserInfoDao {
      * @return
      */
     public boolean checkPasswordWhenChange(String phone, String password) {
-        String sql = "SELECT COUNT(1) FROM user_info WHERE phone =" + phone + " && password =" + password;
-        return jdbcTemplate.update(sql) == 1;
+        String sql = "SELECT COUNT(1) FROM user_info WHERE phone = '" + phone + "' AND password = '" + password + "'";
+        return jdbcTemplate.queryForObject(sql, Integer.class) == 1;
     }
 
     /**
@@ -125,7 +125,7 @@ public class UserInfoDao {
      * @return
      */
     public boolean updatePasswordByUserId(String password, String phone) {
-        String sql = "UPDATE user_info SET password =" + password + " WHERE phone =" + phone;
+        String sql = "UPDATE user_info SET password = '" + password + "' WHERE phone = '" + phone + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -137,7 +137,7 @@ public class UserInfoDao {
      * @return
      */
     public boolean updateUserNameByUserId(String userName, String phone) {
-        String sql = "UPDATE user_info SET user_name =" + userName + " WHERE phone =" + phone;
+        String sql = "UPDATE user_info SET user_name = '" + userName + "' WHERE phone = '" + phone + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -149,7 +149,7 @@ public class UserInfoDao {
      * @return
      */
     public boolean updateUserHeadPortraitImgUrlByPhone(String userHeadPortraitImgUrl, String phone) {
-        String sql = "UPDATE user_info SET user_head_portrait_img_url =" + userHeadPortraitImgUrl + " WHERE phone =" + phone;
+        String sql = "UPDATE user_info SET user_head_portrait_img_url = '" + userHeadPortraitImgUrl + "' WHERE phone = '" + phone + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 }

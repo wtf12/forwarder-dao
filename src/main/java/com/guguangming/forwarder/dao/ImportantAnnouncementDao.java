@@ -61,7 +61,7 @@ public class ImportantAnnouncementDao {
      * @return
      */
     public ImportantAnnouncementEntity getImportantAnnouncementByAnnouncementName(String announcementName) {
-        String sql = "SELECT * FROM important_announcement WHERE announcement_name =" + announcementName;
+        String sql = "SELECT * FROM important_announcement WHERE announcement_name = '" + announcementName + "'";
         return jdbcTemplate.queryForObject(sql, ImportantAnnouncementEntity.class);
     }
 
@@ -72,7 +72,7 @@ public class ImportantAnnouncementDao {
      * @return
      */
     public ImportantAnnouncementEntity getImportantAnnouncementByAnnouncementTime(Date announcementTime) {
-        String sql = "SELECT * FROM important_announcement WHERE announcement_time =" + announcementTime;
+        String sql = "SELECT * FROM important_announcement WHERE announcement_time = '" + announcementTime + "'";
         return jdbcTemplate.queryForObject(sql, ImportantAnnouncementEntity.class);
     }
 
@@ -83,10 +83,10 @@ public class ImportantAnnouncementDao {
      * @return
      */
     public boolean updateImportantAnnouncementById(ImportantAnnouncementEntity importantAnnouncementEntity) {
-        String sql = "UPDATE important_announcement SET announcement_name =" + importantAnnouncementEntity.getAnnouncementName()
-                + ", announcement_content =" + importantAnnouncementEntity.getAnnouncementContent()
-                + ", announcement_time =" + importantAnnouncementEntity.getAnnouncementTime()
-                + " WHERE announcement_id =" + importantAnnouncementEntity.getAnnouncementId();
+        String sql = "UPDATE important_announcement SET announcement_name = '" + importantAnnouncementEntity.getAnnouncementName()
+                + "', announcement_content = '" + importantAnnouncementEntity.getAnnouncementContent()
+                + "', announcement_time = '" + importantAnnouncementEntity.getAnnouncementTime()
+                + "' WHERE announcement_id =" + importantAnnouncementEntity.getAnnouncementId();
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -108,7 +108,7 @@ public class ImportantAnnouncementDao {
      * @return
      */
     public boolean updateImportantAnnouncementByAnnouncementTime(Date announcementTime) {
-        String sql = "DELETE FROM important_announcement WHERE announcement_time =" + announcementTime;
+        String sql = "DELETE FROM important_announcement WHERE announcement_time = '" + announcementTime + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 

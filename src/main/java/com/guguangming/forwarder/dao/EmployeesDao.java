@@ -41,7 +41,7 @@ public class EmployeesDao {
      * @param employeesId
      * @return
      */
-    public EmployeesEntity getEmployeesByEmployeesId(String employeesId) {
+    public EmployeesEntity getEmployeesByEmployeesId(Integer employeesId) {
         String sql = "SELECT * FROM employees WHERE employees_id =" + employeesId;
         return jdbcTemplate.queryForObject(sql, EmployeesEntity.class);
     }
@@ -53,10 +53,10 @@ public class EmployeesDao {
      * @return
      */
     public boolean updateEmployeesById(EmployeesEntity employeesEntity) {
-        String sql = "UPDATE employees SET employees_img_name =" + employeesEntity.getEmployeesImgName()
-                + ", employees_img_url =" + employeesEntity.getEmployeesImgUrl()
-                + ", employees_synopsis =" + employeesEntity.getEmployeesSynopsis()
-                + " WHERE employees_id =" + employeesEntity.getEmployeesId();
+        String sql = "UPDATE employees SET employees_img_name = '" + employeesEntity.getEmployeesImgName()
+                + "', employees_img_url = '" + employeesEntity.getEmployeesImgUrl()
+                + "', employees_synopsis = '" + employeesEntity.getEmployeesSynopsis()
+                + "' WHERE employees_id =" + employeesEntity.getEmployeesId();
         return jdbcTemplate.update(sql) == 1;
     }
 

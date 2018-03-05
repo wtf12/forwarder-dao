@@ -51,9 +51,9 @@ public class CompanySynopsisBannerDao {
      * @param
      * @return
      */
-    public boolean updateCompanySynopsisBannerByCompanySynopsisBannerImgId(Integer companySynopsisBannerImgUrl, String companySynopsisBannerImgId) {
-        String sql = "UPDATE company_synopsis_banner SET company_synopsis_banner_img_url = " + companySynopsisBannerImgUrl
-                + " WHERE company_synopsis_banner_img_id = " + companySynopsisBannerImgId;
+    public boolean updateCompanySynopsisBannerByCompanySynopsisBannerImgId(String companySynopsisBannerImgUrl, Integer companySynopsisBannerImgId) {
+        String sql = "UPDATE company_synopsis_banner SET company_synopsis_banner_img_url = '" + companySynopsisBannerImgUrl
+                + "' WHERE company_synopsis_banner_img_id = " + companySynopsisBannerImgId;
         return jdbcTemplate.update(sql) == 1;
     }
 

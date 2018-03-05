@@ -20,10 +20,10 @@ public class AdministratorInfoDao {
      */
     public boolean checkLoginInfo(AdministratorInfoEntity administratorInfoEntity) {
         String sql = "SELECT COUNT(1) FROM administrator_info WHERE administrator_id = "
-                + administratorInfoEntity.getAdministratorId() + " && administrator_name = "
-                + administratorInfoEntity.getAdministratorName() + " && password = "
-                + administratorInfoEntity.getPassword();
-        return jdbcTemplate.update(sql) == 1;
+                + administratorInfoEntity.getAdministratorId() + " AND administrator_name = '"
+                + administratorInfoEntity.getAdministratorName() + "' AND password = '"
+                + administratorInfoEntity.getPassword() + "'";
+        return jdbcTemplate.queryForObject(sql,Integer.class) == 1;
 
     }
 

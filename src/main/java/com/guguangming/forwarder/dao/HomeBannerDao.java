@@ -51,7 +51,7 @@ public class HomeBannerDao {
      * @return
      */
     public boolean updateHomeBannerByHomeBannerImgId(String homeBannerImgUrl, Integer homeBannerImgId) {
-        String sql = "UPDATE home_banner SET home_banner_img_url =" + homeBannerImgUrl + " WHERE home_banner_img_id =" + homeBannerImgId;
+        String sql = "UPDATE home_banner SET home_banner_img_url = '" + homeBannerImgUrl + "' WHERE home_banner_img_id =" + homeBannerImgId;
         return jdbcTemplate.update(sql) == 1;
     }
 

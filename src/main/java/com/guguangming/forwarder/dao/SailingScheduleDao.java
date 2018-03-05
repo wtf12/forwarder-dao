@@ -55,7 +55,7 @@ public class SailingScheduleDao {
      * @return
      */
     public SailingScheduleEntity getSailingScheduleByScheduleName(String scheduleName) {
-        String sql = "SELECT * FROM sailing_schedule WHERE schedule_name =" + scheduleName;
+        String sql = "SELECT * FROM sailing_schedule WHERE schedule_name = '" + scheduleName + "'";
         return jdbcTemplate.queryForObject(sql, SailingScheduleEntity.class);
     }
 
@@ -65,7 +65,7 @@ public class SailingScheduleDao {
      * @return
      */
     public SailingScheduleEntity getSailingScheduleByScheduleTime(Date scheduleTime) {
-        String sql = "SELECT * FROM sailing_schedule WHERE schedule_time =" + scheduleTime;
+        String sql = "SELECT * FROM sailing_schedule WHERE schedule_time ='" + scheduleTime + "'";
         return jdbcTemplate.queryForObject(sql, SailingScheduleEntity.class);
     }
 
@@ -76,12 +76,12 @@ public class SailingScheduleDao {
      * @return
      */
     public boolean updateSailingScheduleByScheduleId(SailingScheduleEntity sailingScheduleEntity) {
-        String sql = "UPDATE sailing_schedule SET schedule_name =" + sailingScheduleEntity.getScheduleName()
-                + ", schedule_size =" + sailingScheduleEntity.getScheduleSize()
-                + ", schedule_type =" + sailingScheduleEntity.getScheduleType()
-                + ", schedule_url =" + sailingScheduleEntity.getScheduleUrl()
-                + ", schedule_time =" + sailingScheduleEntity.getScheduleTime()
-                + " WHERE schedule_id =" + sailingScheduleEntity.getScheduleId();
+        String sql = "UPDATE sailing_schedule SET schedule_name = '" + sailingScheduleEntity.getScheduleName()
+                + "', schedule_size = '" + sailingScheduleEntity.getScheduleSize()
+                + "', schedule_type = '" + sailingScheduleEntity.getScheduleType()
+                + "', schedule_url = '" + sailingScheduleEntity.getScheduleUrl()
+                + "', schedule_time = '" + sailingScheduleEntity.getScheduleTime()
+                + "' WHERE schedule_id =" + sailingScheduleEntity.getScheduleId();
         return jdbcTemplate.update(sql) == 1;
     }
 

@@ -30,7 +30,7 @@ public class CheckNoticeDao {
      * @return
      */
     public boolean updateCheckNoticeByNoticeId(String notic) {
-        String sql = "UPDATE check_notice SET notice = " + notic + " WHERE notice_id = 1";
+        String sql = "UPDATE check_notice SET notice = '" + notic + "' WHERE notice_id = 1";
         return jdbcTemplate.update(sql) == 1;
     }
 

@@ -54,7 +54,7 @@ public class ProjectSuccessDao {
      * @return
      */
     public ProjectSuccessEntity getProjectSuccessByProjectName(String projectName) {
-        String sql = "SELECT * FROM project_success WHERE project_name =" + projectName;
+        String sql = "SELECT * FROM project_success WHERE project_name = '" + projectName + "'";
         return jdbcTemplate.queryForObject(sql, ProjectSuccessEntity.class);
     }
 
@@ -65,11 +65,11 @@ public class ProjectSuccessDao {
      * @return
      */
     public boolean updateProjectSuccessByProjectId(ProjectSuccessEntity projectSuccessEntity) {
-        String sql = "UPDATE project_success SET project_name =" + projectSuccessEntity.getProjectName()
-                + ", project_img_url =" + projectSuccessEntity.getProjectImgUrl()
-                + ", project_synopsis =" + projectSuccessEntity.getProjectSynopsis()
-                + ", project_time =" + projectSuccessEntity.getProjectTime()
-                + " WHERE project_id =" + projectSuccessEntity.getProjectId();
+        String sql = "UPDATE project_success SET project_name ='" + projectSuccessEntity.getProjectName()
+                + "', project_img_url = '" + projectSuccessEntity.getProjectImgUrl()
+                + "', project_synopsis = '" + projectSuccessEntity.getProjectSynopsis()
+                + "', project_time = '" + projectSuccessEntity.getProjectTime()
+                + "' WHERE project_id =" + projectSuccessEntity.getProjectId();
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -91,7 +91,7 @@ public class ProjectSuccessDao {
      * @return
      */
     public boolean deleteProjectSuccess(String projectName) {
-        String sql = "DELETE FROM project_success WHERE project_name =" + projectName;
+        String sql = "DELETE FROM project_success WHERE project_name = '" + projectName + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 }

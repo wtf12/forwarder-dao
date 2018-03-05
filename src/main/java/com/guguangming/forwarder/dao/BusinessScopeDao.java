@@ -46,7 +46,7 @@ public class BusinessScopeDao {
      * @return
      */
     public BusinessScopeEntity getBusinessScopeContentByBusinessName(String businessName) {
-        String sql = "SELECT * FROM business_scope WHERE business_name = " + businessName;
+        String sql = "SELECT * FROM business_scope WHERE business_name = '" + businessName + "'";
         return jdbcTemplate.queryForObject(sql, BusinessScopeEntity.class);
     }
 
@@ -58,8 +58,8 @@ public class BusinessScopeDao {
      * @return
      */
     public boolean updateDescribeKeywordByBusinessName(String describeKeyword, String businessName) {
-        String sql = "UPDATE business_scope SET describe_keyword = " + describeKeyword
-                + " WHERE business_name = " + businessName;
+        String sql = "UPDATE business_scope SET describe_keyword = '" + describeKeyword + "'"
+                + " WHERE business_name = '" + businessName + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -70,8 +70,8 @@ public class BusinessScopeDao {
      * @return
      */
     public boolean updateBusinessContentByBusinessName(String businessContent, String businessName) {
-        String sql = "UPDATE business_scope SET business_content = " + businessContent
-                + " WHERE business_name = " + businessName;
+        String sql = "UPDATE business_scope SET business_content = '" + businessContent + "'"
+                + " WHERE business_name = '" + businessName + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -82,7 +82,7 @@ public class BusinessScopeDao {
      * @return
      */
     public boolean deleteBusinessScopeByBusinessName(String businessName) {
-        String sql = "DELETE FROM business_scope WHERE businessName = " + businessName;
+        String sql = "DELETE FROM business_scope WHERE businessName = '" + businessName + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 }

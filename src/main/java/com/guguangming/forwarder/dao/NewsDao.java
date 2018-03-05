@@ -58,7 +58,7 @@ public class NewsDao {
      * @return
      */
     public NewsEntity getNewsByNewsTitle(String newsTitle) {
-        String sql = "SELECT * FROM news WHERE news_title =" + newsTitle;
+        String sql = "SELECT * FROM news WHERE news_title = '" + newsTitle + "'";
         return jdbcTemplate.queryForObject(sql, NewsEntity.class);
     }
 
@@ -69,7 +69,7 @@ public class NewsDao {
      * @return
      */
     public NewsEntity getNewsByNewsTime(String newsTime) {
-        String sql = "SELECT * FROM news WHERE news_time =" + newsTime;
+        String sql = "SELECT * FROM news WHERE news_time = '" + newsTime + "'";
         return jdbcTemplate.queryForObject(sql, NewsEntity.class);
     }
 
@@ -80,13 +80,13 @@ public class NewsDao {
      * @return
      */
     public boolean updateNewsById(NewsEntity newsEntity) {
-        String sql = "UPDATE news SET news_title =" + newsEntity.getNewsTitle()
-                + ", news_img_url =" + newsEntity.getNewsImgUrl()
-                + ", news_content =" + newsEntity.getNewsContent()
-                + ", news_synopsis =" + newsEntity.getNewsSynopsis()
-                + ", news_synopsis_img_url =" + newsEntity.getNewsSynopsisImgUrl()
-                + ", news_time =" + newsEntity.getNewsTime()
-                + " WHERE id =" + newsEntity.getId();
+        String sql = "UPDATE news SET news_title = '" + newsEntity.getNewsTitle()
+                + "', news_img_url = '" + newsEntity.getNewsImgUrl()
+                + "', news_content = '" + newsEntity.getNewsContent()
+                + "', news_synopsis = '" + newsEntity.getNewsSynopsis()
+                + "', news_synopsis_img_url = '" + newsEntity.getNewsSynopsisImgUrl()
+                + "', news_time ='" + newsEntity.getNewsTime()
+                + "' WHERE id =" + newsEntity.getId();
         return jdbcTemplate.update(sql) == 1;
     }
 
@@ -108,7 +108,7 @@ public class NewsDao {
      * @return
      */
     public boolean deleteNewsByNewsTime(Date newsTime) {
-        String sql = "DELETE FROM news WHERE news_time =" + newsTime;
+        String sql = "DELETE FROM news WHERE news_time = '" + newsTime + "'";
         return jdbcTemplate.update(sql) == 1;
     }
 }
